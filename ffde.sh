@@ -5,23 +5,43 @@
 
 #função usada para enviar mensagem caso o usuário nao esteja usando o comando sudo
 #this functio send the error mesage to user if his not use the sudo command
-function root {
 
 if [ "$(whoami)" != "root" ]
 then
-  echo " use sudo para usar este script | use sudo berfore run this script "
+echo
+  echo -e " 🔴 use sudo para usar este script\n 🔴 use sudo berfore run this script"
+echo
   exit 1
 fi
 
-}
+echo
+echo
 
-echo
-echo
+RED='\033[0;31m'
+NC='\033[0m' # No Color
 
 # executando comandos
 
-# Exclui os arquivos do firefox DEv da pasta opt
-echo " 🐧 excluindo arquivos legados do diretorio opt \n sudo rm -Rf /opt/firefox-developer* && \ "
+# Excluindo arquivos do firefox DEv da pasta opt
+echo  -e " 🐧 Excluindo arquivos legados do FIREFOX DEv no diretorio opt"
+echo
+sleep 1
+echo  -e " 🔴 ${RED}sudo rm -Rf /opt/firefox-developer* "
+echo
+
+sleep 1
+
+ echo -ne ' #####                   (33%)\r'
+sleep 1
+ echo -ne ' #############           (66%)\r'
+sleep 1
+ echo -ne ' ####################### (100%)\r '
+ echo -ne ' \n'${NC}
+
+sleep 2
+
+echo
+echo -e " Êxito !"
 echo
 
 sleep 2
@@ -32,10 +52,27 @@ echo
 #fim
 
 # Exclui os arquivos do firefov DEv da pasta bin
-echo " 🐧 excluindo arquivos legados do diretório bin "
+echo " 🐧 Excluindo arquivos legados do FIREFOX DEv no diretório bin "
+echo
+sleep 1
+echo  -e " 🔴 ${RED}sudo rm -Rf /usr/bin/firefox-developer "
 echo
 
- 
+sleep 1
+
+ echo -ne ' #####                   (33%)\r'
+sleep 1
+ echo -ne ' #############           (66%)\r'
+sleep 1
+ echo -ne ' ####################### (100%)\r '
+ echo -ne ' \n'${NC}
+
+sleep 2
+
+echo
+echo -e " Êxito !"
+echo
+
 sleep 2
 sudo rm -Rf /usr/bin/firefox-developer && \
 
@@ -44,9 +81,26 @@ echo
 #fim 
 
 # Exclui o icone do Firefox DEv da seção de snaps
-echo " 🐧 excluindo o icone da seção de Snaps (( snApps )) "
+echo " 🐧 Excluindo icone de atalho do firefox-dev na seção de Snaps "
+echo
+sleep 1
+echo  -e " 🔴 ${RED}sudo rm -Rf /usr/share/applications/firefox-developer.desktop "
 echo
 
+sleep 1
+
+ echo -ne ' #####                   (33%)\r'
+sleep 1
+ echo -ne ' #############           (66%)\r'
+sleep 1
+ echo -ne ' ####################### (100%)\r '
+ echo -ne ' \n'${NC}
+
+sleep 2
+
+echo
+echo -e " Êxito !"
+echo
 
 sleep 2
 sudo rm -Rf /usr/share/applications/firefox-developer.desktop && \
@@ -121,7 +175,7 @@ echo
 #fim
 
 # Criando novo icone de atalho do firefox-dev na seção de Snaps (( snApps )) 
-echo " 🐧 Criando novo icone de atalho do firefox-dev na seção de Snaps (( snApps ))  "
+echo " 🐧 Criando novo icone de atalho do firefox-dev na seção de Snaps"
 echo
 
 sleep 2
@@ -133,10 +187,7 @@ echo
 # printando a mensagem de agradecimento no terminal
 sleep 2
 
-echo " thanks for use this script | obrigado por usar este script !. Compartilhe " 
-
-clear
-echo " 🐧 thanks for use this script | obrigado por usar este script !. Compartilhe " 
+echo -e " 🐧 obrigado por usar este script. Compartilhe !\n 🐧 thanks for use this script. Share ! " 
 
 echo
 
