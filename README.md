@@ -1,2 +1,2 @@
 # Firefox DEV auto installer and update.
-this script install automatically the Firefox Developer Edition and updates to Linux Ubuntu and another distro based on Debian
+this script install automatically the Firefox Browser Developer Edition and auto update to Linux Ubuntu and another distro based on Debian
