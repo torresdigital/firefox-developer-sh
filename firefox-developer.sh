@@ -18,6 +18,7 @@ echo
 echo
 
 on_green='\033[42m'
+b_green='\033[1;32m'
 green='\033[0;32m'
 red='\033[0;31m'
 nc='\033[0m' # No Color
@@ -25,23 +26,19 @@ nc='\033[0m' # No Color
 # executando comandos
 
 # Excluindo arquivos do firefox DEv da pasta opt
-echo  -e " 🐧 Excluindo arquivos legados do FIREFOX DEv no diretorio opt"
+echo  -e " 🐧 Excluindo arquivos legados do FIREFOX DEv no diretorio opt \n 🐧 Excluding legacy Firefox achives on opt diretory"
 echo
 sleep 1
-echo  -e " 🔴 ${green} sudo rm -Rf /opt/firefox-developer* " ${nc} 
+echo  -e " 🔴${b_green} sudo rm -Rf /opt/firefox-developer* " ${nc} 
 echo
 
 sleep 1
-
-
-
- echo -ne ${on_green}' #####                   (33%)\r'
+echo -ne ${b_green}'🟩🟩🟩🟩🟩    (33%)\r '
 sleep 1
- echo -ne '#############           (66%)\r'
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (66%)\r '
 sleep 1
- echo -ne '####################### (100%)\r ' ${nc}
- echo -ne ' \n'
- 
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (100%)\r ' ${nc}
+echo -ne '\n'
 sleep 2
 
 echo
@@ -59,18 +56,16 @@ echo
 echo " 🐧 Excluindo arquivos legados do FIREFOX DEv no diretório bin "
 echo
 sleep 1
-echo  -e " 🔴 ${RED}sudo rm -Rf /usr/bin/firefox-developer "
+echo  -e " 🔴 ${b_green}sudo rm -Rf /usr/bin/firefox-developer "
 echo
 
 sleep 1
-
- echo -ne ' #####                   (33%)\r'
+echo -ne ${b_green}'🟩🟩🟩🟩🟩    (33%)\r '
 sleep 1
- echo -ne ' #############           (66%)\r'
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (66%)\r '
 sleep 1
- echo -ne ' ####################### (100%)\r '
- echo -ne ' \n'${NC}
-
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (100%)\r ' ${nc}
+echo -ne '\n'
 sleep 2
 
 echo
@@ -88,18 +83,16 @@ echo
 echo " 🐧 Excluindo icone de atalho do firefox-dev na seção de Snaps "
 echo
 sleep 1
-echo  -e " 🔴 ${RED}sudo rm -Rf /usr/share/applications/firefox-developer.desktop "
+echo  -e " 🔴 ${b_green}sudo rm -Rf /usr/share/applications/firefox-developer.desktop "
 echo
 
 sleep 1
-
- echo -ne ' #####                   (33%)\r'
+echo -ne ${b_green}'🟩🟩🟩🟩🟩    (33%)\r '
 sleep 1
- echo -ne ' #############           (66%)\r'
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (66%)\r '
 sleep 1
- echo -ne ' ####################### (100%)\r '
- echo -ne ' \n'${NC}
-
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (100%)\r ' ${nc}
+echo -ne '\n'
 sleep 2
 
 echo
