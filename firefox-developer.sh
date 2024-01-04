@@ -17,8 +17,10 @@ fi
 echo
 echo
 
-RED='\033[0;31m'
-NC='\033[0m' # No Color
+on_green='\033[42m'
+green='\033[0;32m'
+red='\033[0;31m'
+nc='\033[0m' # No Color
 
 # executando comandos
 
@@ -26,18 +28,20 @@ NC='\033[0m' # No Color
 echo  -e " 🐧 Excluindo arquivos legados do FIREFOX DEv no diretorio opt"
 echo
 sleep 1
-echo  -e " 🔴 ${RED}sudo rm -Rf /opt/firefox-developer* "
+echo  -e " 🔴 ${green} sudo rm -Rf /opt/firefox-developer* " ${nc} ${on_green}
 echo
 
 sleep 1
+
+
 
  echo -ne ' #####                   (33%)\r'
 sleep 1
  echo -ne ' #############           (66%)\r'
 sleep 1
- echo -ne ' ####################### (100%)\r '
- echo -ne ' \n'${NC}
-
+ echo -ne ' ####################### (100%)\r ' ${nc}
+ echo -ne ' \n'
+ 
 sleep 2
 
 echo
