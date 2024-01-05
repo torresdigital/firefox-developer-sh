@@ -106,10 +106,11 @@ echo
 #fim
 
 # Exclui o diretório antigo com arquivos de uma instalação anterior
-echo " 🐧 excluindo diretório antigo com arquivos de uma instalação anterior"
+echo " 🐧 excluindo diretório antigo com arquivos de uma instalação anterior "
 echo
-slep 1
-echo -e " ${b_green} sudo rm -Rf firefox-developer-installer* "
+sleep 1
+echo -e " 🔴 ${b_green}sudo rm -Rf firefox-developer-installer* "
+echo
 
 sleep 1
 echo -ne ${b_green}'🟩🟩🟩🟩🟩    (33%)\r '
@@ -134,10 +135,26 @@ echo
 # criando uma outra pasta com o atual Firefox DEv
 echo " 🐧 criando diretório para receber o donwload do Firefox DEv"
 echo
+sleep 1
+echo -e " 🔴 {b_green}firefox-developer-installer && cd firefox-developer-installer "
+echo
 
- 
+sleep 1
+echo -ne ${b_green}'🟩🟩🟩🟩🟩    (33%)\r '
+sleep 1
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (50%)\r '
+sleep 1
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (100%)\r ' ${nc}
+echo -ne '\n'
 sleep 2
-mkdir ffde && cd ffde && \
+ 
+echo
+echo -e " Êxito !"
+echo
+
+
+sleep 2
+mkdir firefox-developer-installer && cd firefox-developer-installer && \
 
 echo
 #fim
