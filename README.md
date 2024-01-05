@@ -6,4 +6,4 @@ this script install automatically the Firefox Browser Developer Edition and auto
 ####  Versão em Português Brazuka
 
 
-![alt text](https://github.com/atorresbr/completely-uninstall-lamp-on-ubuntu/blob/main/img/completely-uninstall-lamp-on-ubuntu.jpg)
+![alt text](https://github.com/atorresbr/firefox-developer-sh/blob/main/img/firefox-developer-edition-installer-and-update-to-linux.jpg)
