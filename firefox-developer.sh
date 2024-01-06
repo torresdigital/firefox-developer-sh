@@ -107,7 +107,7 @@ echo
 echo " 🐧 excluindo diretório antigo com arquivos de uma instalação anterior "
 echo
 sleep 1
-echo -e " 🔴 ${b_green}sudo rm -Rf firefox-developer-installer* "
+echo -e " 🔴 ${b_green}sudo rm -Rf installer-firefox-developer* "
 echo
 
 sleep 1
@@ -152,7 +152,7 @@ echo
 
 
 sleep 2
-mkdir firefox-developer-auto-installer && cd firefox-developer-auto-installer && \
+mkdir installer-firefox-developer && cd installer-firefox-developerr && \
 
 echo
 #fim
