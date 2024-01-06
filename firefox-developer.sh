@@ -179,7 +179,7 @@ echo -e " 🔴  sudo tar -jxvf  firefox-dev.bz2 -C /opt/ "
 echo
  
 sleep 2
-sudo tar -jxvf  firefox-developer.bz2 -C /opt/ && \
+sudo tar -jxvf  firefox-dev.bz2 -C /opt/ && \
 
 echo
 echo -e " Êxito !"
