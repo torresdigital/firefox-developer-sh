@@ -124,7 +124,7 @@ echo -e " Êxito !"
 echo
  
 sleep 2
-sudo rm -Rf firefox-developer-auto-installer* && \
+sudo rm -Rf installer-firefox-developer* && \
 
 echo
 #fim
@@ -134,7 +134,7 @@ echo
 echo " 🐧 criando diretório para receber o donwload do Firefox DEv"
 echo
 sleep 1
-echo -e " 🔴 ${b_green}mkdir firefox-developer-auto-installer && cd firefox-developer-auto-installer "
+echo -e " 🔴 ${b_green}mkdir installer-firefox-developer && cd installer-firefox-developer "
 echo
 
 sleep 1
@@ -152,7 +152,7 @@ echo
 
 
 sleep 2
-mkdir firefox-developer-installer && cd firefox-developer-installer && \
+mkdir firefox-developer-auto-installer && cd firefox-developer-auto-installer && \
 
 echo
 #fim
@@ -175,7 +175,7 @@ echo
 echo " 🐧 Extraindo os arquivos do encapsulamento"
 echo
 sleep 1
-echo -e " 🔴  sudo tar -jxvf  firefox-developer.bz2 -C /opt/ "
+echo -e " 🔴  sudo tar -jxvf  firefox-dev.bz2 -C /opt/ "
 echo
  
 sleep 2
@@ -189,10 +189,10 @@ echo
 #fim
 
 # renomeando a pasta dos arquivos de firefox para firefox-dev
-echo " 🐧 renomeando o diretório dos arquivos de firefox para firefox-dev"
+echo " 🐧 renomeando o diretório dos arquivos de firefox para firefox-developer"
 echo
 sleep 1
-echo
+echo -e " 🔴 ${b_green} sudo mv /opt/firefox*/ /opt/firefox-developer "
 echo 
 
 sleep 1
@@ -219,6 +219,22 @@ echo
 # Criando atalho do firefox-dev no diretório do usuário  
 echo " 🐧 Criando atalho do firefox-dev no diretório do usuário "
 echo
+sleep1
+echo -e " 🔴  ${b_green} sudo ln -sf /opt/firefox-developer/firefox /usr/bin/firefox-developer "
+echo
+
+sleep 1
+echo -ne ${b_green}'🟩🟩🟩🟩🟩    (33%)\r '
+sleep 1
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (50%)\r '
+sleep 1
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (100%)\r ' ${nc}
+echo -ne '\n'
+sleep 2
+ 
+echo
+echo -e " Êxito !"
+echo
 
 sleep 2
 sudo ln -sf /opt/firefox-developer/firefox /usr/bin/firefox-developer && \
@@ -228,6 +244,21 @@ echo
 
 # Criando novo icone de atalho do firefox-dev na seção de Snaps (( snApps )) 
 echo " 🐧 Criando novo icone de atalho do firefox-dev na seção de Snaps"
+echo
+sleep 1
+echo -e " 🔴 ${b_green} [Desktop Entry]\n Version=yy.y.y\n Encoding=UTF-8\n Name=Mozilla Firefox\n Comment=Navegador Web\n Exec=/opt/firefox-developer/firefox\n Icon=/opt/firefox-developer/browser/chrome/icons/default/default128.png\n Type=Application\n Categories=Network'\n | sudo tee /usr/share/applications/firefox-developer.desktop"
+
+sleep 1
+echo -ne ${b_green}'🟩🟩🟩🟩🟩    (33%)\r '
+sleep 1
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (50%)\r '
+sleep 1
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (100%)\r ' ${nc}
+echo -ne '\n'
+sleep 2
+ 
+echo
+echo -e " Êxito !"
 echo
 
 sleep 2
