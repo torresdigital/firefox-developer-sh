@@ -49,7 +49,6 @@ sleep 2
 sudo rm -Rf /opt/firefox-developer* && \
 
 echo
-
 #fim
 
 # Exclui os arquivos do firefov DEv da pasta bin
@@ -76,7 +75,6 @@ sleep 2
 sudo rm -Rf /usr/bin/firefox-developer && \
 
 echo
-
 #fim 
 
 # Exclui o icone do Firefox DEv da seção de snaps
@@ -126,7 +124,7 @@ echo -e " Êxito !"
 echo
  
 sleep 2
-sudo rm -Rf ffde* && \
+sudo rm -Rf firefox-developer-auto-installer* && \
 
 echo
 #fim
@@ -136,7 +134,7 @@ echo
 echo " 🐧 criando diretório para receber o donwload do Firefox DEv"
 echo
 sleep 1
-echo -e " 🔴 {b_green}firefox-developer-installer && cd firefox-developer-installer "
+echo -e " 🔴 ${b_green}mkdir firefox-developer-auto-installer && cd firefox-developer-auto-installer "
 echo
 
 sleep 1
@@ -160,12 +158,14 @@ echo
 #fim
 
 # fazendo o Donload
-echo " 🐧 Fazendo o download do Firefox DEv"
+echo " 🐧 iniciando o download do Firefox DEv"
 echo
+sleep 1
+echo -e " 🔴 ${b_green} https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US -O firefox-dev.bz2 "
+echo 
 
-
-sleep 2
-wget "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US" -O ffde.bz2 && \
+sleep2
+wget "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US" -O firefox-dev.bz2 && \
 
 echo
 #fim
@@ -173,7 +173,6 @@ echo
 # Extraindo os arquivos
 echo " 🐧 Extraindo os arquivos do encapsulamento"
 echo
-
  
 sleep 2
 sudo tar -jxvf  ffde.bz2 -C /opt/ && \
