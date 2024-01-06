@@ -152,7 +152,7 @@ echo
 
 
 sleep 2
-mkdir installer-firefox-developer && cd installer-firefox-developerr && \
+mkdir installer-firefox-developer && cd installer-firefox-developer && \
 
 echo
 #fim
@@ -219,7 +219,7 @@ echo
 # Criando atalho do firefox-dev no diretório do usuário  
 echo " 🐧 Criando atalho do firefox-dev no diretório do usuário "
 echo
-sleep1
+sleep 1
 echo -e " 🔴  ${b_green} sudo ln -sf /opt/firefox-developer/firefox /usr/bin/firefox-developer "
 echo
 
@@ -245,25 +245,12 @@ echo
 # Criando novo icone de atalho do firefox-dev na seção de Snaps (( snApps )) 
 echo " 🐧 Criando novo icone de atalho do firefox-dev na seção de Snaps"
 echo
-sleep 1
-echo -e " 🔴 ${b_green} [Desktop Entry]\n Version=yy.y.y\n Encoding=UTF-8\n Name=Mozilla Firefox\n Comment=Navegador Web\n Exec=/opt/firefox-developer/firefox\n Icon=/opt/firefox-developer/browser/chrome/icons/default/default128.png\n Type=Application\n Categories=Network'\n | sudo tee /usr/share/applications/firefox-developer.desktop"
-
-sleep 1
-echo -ne ${b_green}'🟩🟩🟩🟩🟩    (33%)\r '
-sleep 1
-echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (50%)\r '
-sleep 1
-echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (100%)\r ' ${nc}
-echo -ne '\n'
-sleep 2
- 
-echo
-echo -e " Êxito !"
-echo
 
 sleep 2
  echo -e '[Desktop Entry]\n Version=yy.y.y\n Encoding=UTF-8\n Name=Mozilla Firefox\n Comment=Navegador Web\n Exec=/opt/firefox-developer/firefox\n Icon=/opt/firefox-developer/browser/chrome/icons/default/default128.png\n Type=Application\n Categories=Network' | sudo tee /usr/share/applications/firefox-developer.desktop && \
 
+echo
+echo -e " Êxito !"
 echo
 #fim
 
@@ -274,6 +261,7 @@ echo -e " 🐧 obrigado por usar este script. Compartilhe !\n 🐧 thanks for us
 
 echo
 
+#Options to Developers
 
 #while true; do
 #    read -p "Do you wish to install this program? " yn
