@@ -161,8 +161,9 @@ echo
 echo " 🐧 iniciando o download do Firefox DEv"
 echo
 sleep 1
-echo -e " 🔴 ${b_green} https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US -O firefox-dev.bz2 "
+echo -e " 🔴 https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US -O firefox-dev.bz2 "
 echo 
+
 
 sleep2
 wget "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US" -O firefox-dev.bz2 && \
@@ -173,9 +174,16 @@ echo
 # Extraindo os arquivos
 echo " 🐧 Extraindo os arquivos do encapsulamento"
 echo
+sleep 1
+echo -e " 🔴  sudo tar -jxvf  firefox-developer.bz2 -C /opt/ "
+echo
  
 sleep 2
-sudo tar -jxvf  ffde.bz2 -C /opt/ && \
+sudo tar -jxvf  firefox-developer.bz2 -C /opt/ && \
+
+echo
+echo -e " Êxito !"
+echo
 
 echo
 #fim
@@ -183,6 +191,23 @@ echo
 # renomeando a pasta dos arquivos de firefox para firefox-dev
 echo " 🐧 renomeando o diretório dos arquivos de firefox para firefox-dev"
 echo
+sleep 1
+echo
+echo 
+
+sleep 1
+echo -ne ${b_green}'🟩🟩🟩🟩🟩    (33%)\r '
+sleep 1
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (50%)\r '
+sleep 1
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (100%)\r ' ${nc}
+echo -ne '\n'
+sleep 2
+ 
+echo
+echo -e " Êxito !"
+echo
+
 
 
 sleep 2
