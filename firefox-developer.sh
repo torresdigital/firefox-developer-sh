@@ -9,7 +9,7 @@
 if [ "$(whoami)" != "root" ]
 then
 echo
-  echo -e " 🔴 use sudo para usar este script\n 🔴 use sudo berfore run this script"
+  echo -e " 🔴 use sudo para usar este script"
 echo
   exit 1
 fi
