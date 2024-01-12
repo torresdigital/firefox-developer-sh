@@ -3,13 +3,26 @@
 ## By a.torres
 ## see <https://github.com/atorresbr>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #função usada para enviar mensagem caso o usuário nao esteja usando o comando sudo
 #this functio send the error mesage to user if his not use the sudo command
-
 if [ "$(whoami)" != "root" ]
 then
 echo
-  echo -e " 🔴 use sudo para usar este script\n 🔴 use sudo berfore run this script"
+  echo -e " 🔴 use sudo para usar este script"
 echo
   exit 1
 fi
