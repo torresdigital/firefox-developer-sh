@@ -165,7 +165,7 @@ echo
 echo " 🐧 iniciando o download do Firefox DEv"
 echo
 sleep 1
-echo -e " 🔴 ${b_green}https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US -O firefox-dev.bz2 " ${nc}
+echo -e " 🔴${b_green} https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US -O firefox-dev.bz2 " ${nc}
 echo 
 
 
@@ -188,7 +188,7 @@ echo -ne " 🔴 ${b_green} sudo tar -jxvf  firefox-dev.bz2 -C /opt/ " ${nc}
 echo
  
 sleep 2
- sudo tar -jxvf  firefox-dev.bz2 -C /opt/ && \
+sudo tar -jxvf  firefox-dev.bz2 -C /opt/ && \
 
 echo
 echo -e " Êxito !"
