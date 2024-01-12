@@ -3,9 +3,9 @@ this script install automatically the Firefox Browser Developer Edition and auto
 
 
 
-####  English Version to donwload and Install
+####  Firefox Developer Edition English Version to donwload and Install
 
-####  Baixe a Instalação da Versão em Português Brazuka
+####  Firefox Developer Editio: Baixe a Instalação da Versão em Português Brazuka
 
 
 ![alt text](https://github.com/atorresbr/firefox-developer-sh/blob/main/img/firefox-developer-edition-installer-and-update-to-linux.jpg)
