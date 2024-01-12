@@ -5,18 +5,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 #função usada para enviar mensagem caso o usuário nao esteja usando o comando sudo
 #this functio send the error mesage to user if his not use the sudo command
 if [ "$(whoami)" != "root" ]
@@ -36,7 +24,10 @@ green='\033[0;32m'
 red='\033[0;31m'
 nc='\033[0m' # No Color
 
-# executando comandos
+
+#================================================== * 
+# =        Executando os Comandos de Shell           *
+#================================================== *
 
 # Excluindo arquivos do firefox DEv da pasta opt
 echo  -e " 🐧 Excluindo arquivos legados do FIREFOX DEv no diretorio opt \n 🐧 Excluding legacy Firefox achives on opt diretory"
