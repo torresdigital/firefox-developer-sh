@@ -165,7 +165,7 @@ echo
 echo " 🐧 iniciando o download do Firefox DEv"
 echo
 sleep 1
-echo -e " 🔴${b_green} https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US -O firefox-dev.bz2 " ${nc}
+echo -ne " 🔴 ${b_green} https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US -O firefox-dev.bz2 " ${nc}
 echo 
 
 
