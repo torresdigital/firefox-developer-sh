@@ -175,11 +175,16 @@ wget "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=lin
 echo
 #fim
 
+
+echo
+echo
+
+
 # Extraindo os arquivos
 echo " 🐧 Extraindo os arquivos do encapsulamento"
 echo
 sleep 1
-echo -ne ' 🔴 ${b_green} sudo tar -jxvf  firefox-dev.bz2 -C /opt/ ' ${nc}
+echo -ne " 🔴 ${b_green} sudo tar -jxvf  firefox-dev.bz2 -C /opt/ " ${nc}
 echo
  
 sleep 2
