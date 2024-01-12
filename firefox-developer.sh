@@ -173,6 +173,10 @@ sleep2
 wget "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US" -O firefox-dev.bz2 && \
 
 echo
+echo -e " Êxito !"
+echo
+
+echo
 #fim
 
 # Extraindo os arquivos
