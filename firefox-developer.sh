@@ -179,7 +179,7 @@ echo
 echo " 🐧 Extraindo os arquivos do encapsulamento"
 echo
 sleep 1
-echo -e " 🔴 ${b_green} sudo tar -jxvf  firefox-dev.bz2 -C /opt/ "
+echo -e " 🔴 ${b_green} sudo tar -jxvf  firefox-dev.bz2 -C /opt/ " ${nc}
 echo
  
 sleep 2
