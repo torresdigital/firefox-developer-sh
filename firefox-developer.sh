@@ -256,7 +256,6 @@ echo
 
 sleep 2
  echo -ne  ${b_green}'
- 
  ✅ [Desktop Entry]\n 
  ✅ Version=yy.y.y\n 
  ✅ Encoding=UTF-8\n 
@@ -265,9 +264,7 @@ sleep 2
  ✅ Exec=/opt/firefox-developer/firefox\n 
  ✅ Icon=/opt/firefox-developer/browser/chrome/icons/default/default128.png\n 
  ✅ ype=Application\n 
- ✅ Categories=Network'
- 
-  | sudo tee /usr/share/applications/firefox-developer.desktop && \
+ ✅ Categories=Network' | sudo tee /usr/share/applications/firefox-developer.desktop && \
 
 echo
 echo -e " Êxito !"
