@@ -175,7 +175,7 @@ sleep 2
 wget "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US" -O firefox-dev.bz2 && \
 
 echo
-echo -ne " Êxito !"
+echo -e " Êxito !"
 echo
 
 sleep 1
@@ -251,7 +251,7 @@ echo
 #fim
 
 # Criando atalho do firefox-dev
-echo " 🐧🔊 Criando atalho do firefox-dev 🌀 "
+echo " 🐧 Criando atalho do firefox-dev 🌀 "
 echo
 sleep 1
 echo -e " 🔴  ${b_green} sudo ln -sf /opt/firefox-developer/firefox /usr/bin/firefox-developer "
@@ -325,11 +325,15 @@ echo
 echo -e " 🙌 obrigado por usar este script. \n O firefox se encontra na sua seção de Aplicativos!" 
 echo
 sleep 1
-echo -e " ${on_yellow} ${b_black}Compartilhe !" ${nc} && \
+echo -e " Compartilhe !" && \
 
-exit
-sleep 1
+exit && \
 firefox-developer
+
+echo
+echo
+echo
+echo
 
 #Options to Developers
 
