@@ -327,13 +327,11 @@ echo
 sleep 1
 echo -e " Compartilhe !" && \
 
-exit && \
-firefox-developer
+echo -ne '\n'
 
 echo
 echo
-echo
-echo
+
 
 #Options to Developers
 
