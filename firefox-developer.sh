@@ -267,7 +267,6 @@ sleep 2
  ✅ Categories=Network'  ${nc} | sudo tee /usr/share/applications/firefox-developer.desktop && \ 
  
 
-
 echo
 echo -e " Êxito !"
 echo
