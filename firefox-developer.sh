@@ -264,8 +264,7 @@ sleep 2
  ✅ Exec=/opt/firefox-developer/firefox\n 
  ✅ Icon=/opt/firefox-developer/browser/chrome/icons/default/default128.png\n 
  ✅ ype=Application\n 
- ✅ Categories=Network'  ${nc} | sudo tee /usr/share/applications/firefox-developer.desktop && \ 
- 
+ ✅ Categories=Network' | sudo tee /usr/share/applications/firefox-developer.desktop && \
 
 echo
 echo -e " Êxito !"
@@ -279,7 +278,7 @@ sudo rm -Rf installer-firefox-developer* && \
 
 
 echo
-echo -ne " ${b_green}  🙌 obrigado por usar este script. Compartilhe !" 
+echo -ne " 🙌 obrigado por usar este script. Compartilhe !" 
 echo
 echo
 
