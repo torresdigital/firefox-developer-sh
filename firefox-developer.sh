@@ -255,7 +255,7 @@ echo " 🐧 Criando novo icone de atalho do firefox-dev na seção de Snaps"
 echo
 
 sleep 2
- echo -e '[Desktop Entry]\n Version=yy.y.y\n Encoding=UTF-8\n Name=Mozilla Firefox\n Comment=Navegador Web\n Exec=/opt/firefox-developer/firefox\n Icon=/opt/firefox-developer/browser/chrome/icons/default/default128.png\n Type=Application\n Categories=Network' | sudo tee /usr/share/applications/firefox-developer.desktop && \
+ echo -e ' ✅ [Desktop Entry]\n Version=yy.y.y\n ✅ Encoding=UTF-8\n ✅ Name=Mozilla Firefox\n ✅ Comment=Navegador Web\n ✅ Exec=/opt/firefox-developer/firefox\n ✅ Icon=/opt/firefox-developer/browser/chrome/icons/default/default128.png\n ✅ ype=Application\n ✅ Categories=Network' | sudo tee /usr/share/applications/firefox-developer.desktop && \
 
 echo
 echo -e " Êxito !"
@@ -265,9 +265,20 @@ echo
 # printando a mensagem de agradecimento no terminal
 sleep 2
 
-echo -ne " 🙌 ${b_green}🐧 obrigado por usar este script. Compartilhe !\n 🐧 thanks for use this script. Share ! " 
-
 echo
+echo -ne " 🙌 ${b_green}🐧 obrigado por usar este script. Compartilhe !" 
+echo
+echo
+
+
+
+
+
+
+
+
+
+
 
 #Options to Developers
 
