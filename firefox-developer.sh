@@ -81,7 +81,7 @@ sudo rm -Rf /usr/bin/firefox-developer && \
 echo
 #fim 
 
-# Exclui o icone do Firefox DEv da seção de snaps
+# Exclui o icone do Firefox DEv da seção de snaps (( snApps ))
 echo " 🐧 Excluindo icone de atalho do firefox-dev na seção de Snaps "
 echo
 sleep 1
@@ -165,26 +165,25 @@ echo
 echo " 🐧 iniciando o download do Firefox DEv"
 echo
 sleep 1
-echo -e " 🔴${b_green} https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US -O firefox-dev.bz2 " ${nc}
+echo -e " 🔴 ${b_green} https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US -O firefox-dev.bz2 " ${nc}
 echo 
 
 
-sleep2
+sleep 2
 wget "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US" -O firefox-dev.bz2 && \
 
 echo
+echo -e " Êxito !"
+echo
+
+echo
 #fim
-
-
-echo
-echo
-
 
 # Extraindo os arquivos
 echo " 🐧 Extraindo os arquivos do encapsulamento"
 echo
 sleep 1
-echo -ne " 🔴 ${b_green} sudo tar -jxvf  firefox-dev.bz2 -C /opt/ " ${nc}
+echo -e " 🔴 ${b_green} sudo tar -jxvf  firefox-dev.bz2 -C /opt/ " ${nc}
 echo
  
 sleep 2
@@ -256,7 +255,15 @@ echo " 🐧 Criando novo icone de atalho do firefox-dev na seção de Snaps"
 echo
 
 sleep 2
- echo -e '[Desktop Entry]\n Version=yy.y.y\n Encoding=UTF-8\n Name=Mozilla Firefox\n Comment=Navegador Web\n Exec=/opt/firefox-developer/firefox\n Icon=/opt/firefox-developer/browser/chrome/icons/default/default128.png\n Type=Application\n Categories=Network' | sudo tee /usr/share/applications/firefox-developer.desktop && \
+ echo -e ' ✅ [Desktop Entry]\n 
+ ✅ Version=yy.y.y\n 
+ ✅ Encoding=UTF-8\n 
+ ✅ Name=Mozilla Firefox\n 
+ ✅ Comment=Navegador Web\n 
+ ✅ Exec=/opt/firefox-developer/firefox\n 
+ ✅ Icon=/opt/firefox-developer/browser/chrome/icons/default/default128.png\n 
+ ✅ ype=Application\n 
+ ✅ Categories=Network' | sudo tee /usr/share/applications/firefox-developer.desktop && \
 
 echo
 echo -e " Êxito !"
@@ -266,9 +273,14 @@ echo
 # printando a mensagem de agradecimento no terminal
 sleep 2
 
-echo -e " 🐧 obrigado por usar este script. Compartilhe !\n 🐧 thanks for use this script. Share ! " 
+sudo rm -Rf installer-firefox-developer* && \
+
 
 echo
+echo -ne " ${b_green}  🙌 obrigado por usar este script. Compartilhe !" 
+echo
+echo
+
 
 #Options to Developers
 
