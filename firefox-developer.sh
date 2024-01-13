@@ -18,12 +18,13 @@ fi
 echo
 echo
 
-on_yellow='\033[43m' # Yellow
-on_green='\033[42m'  # Green
-b_green='\033[1;32m' # Bold Green
-green='\033[0;32m'   # Light Green
-red='\033[0;31m'     # Red
-nc='\033[0m'         # No Color
+on_yellow='\033[43m'  # Yellow
+on_green='\033[42m'   # Green
+b_black='\033[1;30m'  # black
+b_green='\033[1;32m'  # Bold Green
+green='\033[0;32m'    # Light Green
+red='\033[0;31m'      # Red
+nc='\033[0m'          # No Color
 
 
 #================================================== * 
@@ -174,10 +175,8 @@ sleep 2
 wget "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US" -O firefox-dev.bz2 && \
 
 echo
-echo -e " Êxito !"
+echo -ne " Êxito !"
 echo
-
-echo 
 
 sleep 1
 echo -ne ${b_green}'👾     (10%%)\r '
@@ -323,13 +322,13 @@ sleep 2
 
 
 echo
-echo -e " 🙌 obrigado por usar este script. \n O firefox irá iniciar e lembre-se que ele se encontra na sua seção de Aplicativos Compartilhe !" 
+echo -e " 🙌 obrigado por usar este script. \n O firefox se encontra na sua seção de Aplicativos!" 
 echo
 sleep 1
-echo -e " ${on_yellow} Compartilhe !" 
+echo -e " ${on_yellow} ${b_black}Compartilhe !" ${nc} && \
 
-echo
-sleep 2
+exit
+sleep 1
 firefox-developer
 
 #Options to Developers
