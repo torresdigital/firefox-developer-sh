@@ -264,7 +264,7 @@ sleep 2
  ✅ Exec=/opt/firefox-developer/firefox\n 
  ✅ Icon=/opt/firefox-developer/browser/chrome/icons/default/default128.png\n 
  ✅ ype=Application\n 
- ✅ Categories=Network' | sudo tee /usr/share/applications/firefox-developer.desktop && \
+ ✅ Categories=Network' | sudo tee /usr/share/applications/firefox-developer.desktop && \ ${nc}
 
 echo
 echo -e " Êxito !"
