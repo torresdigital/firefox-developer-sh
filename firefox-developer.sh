@@ -189,7 +189,6 @@ echo
 sleep 2
 sudo tar -jxvf  firefox-dev.bz2 -C /opt/ && \
 sleep 1
-sudo rm -Rf installer-firefox-developer* && \
 
 echo
 echo -e " Êxito !"
@@ -264,6 +263,32 @@ sleep 2
 
 echo
 echo -e " ${nc}Êxito !"
+echo
+#fim
+
+# Exclui o diretório antigo com arquivos de uma instalação anterior
+echo " 🐧 excluindo diretório antigo com arquivos de uma instalação anterior "
+echo
+sleep 1
+echo -e " 🔴 ${b_green}sudo rm -Rf installer-firefox-developer* "
+echo
+
+sleep 1
+echo -ne ${b_green}'🟩🟩🟩🟩🟩    (33%)\r '
+sleep 1
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (50%)\r '
+sleep 1
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (100%)\r ' ${nc}
+echo -ne '\n'
+sleep 2
+
+echo
+echo -e " Êxito !"
+echo
+ 
+sleep 2
+sudo rm -Rf installer-firefox-developer* && \
+
 echo
 #fim
 
