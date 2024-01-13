@@ -9,20 +9,22 @@
 #this functio send the error mesage to user if his not use the sudo command
 if [ "$(whoami)" != "root" ]
 then
-echo
-  echo -e " 🔴 use sudo para usar este script"
-echo
+  echo
+    echo -e " 🔴 use sudo para usar este script "
+  echo
   exit 1
 fi
 
 echo
 echo
 
-on_green='\033[42m'
-b_green='\033[1;32m'
-green='\033[0;32m'
-red='\033[0;31m'
-nc='\033[0m' # No Color
+on_yellow='\033[43m'  # Yellow
+on_green='\033[42m'   # Green
+b_black='\033[1;30m'  # black
+b_green='\033[1;32m'  # Bold Green
+green='\033[0;32m'    # Light Green
+red='\033[0;31m'      # Red
+nc='\033[0m'          # No Color
 
 
 #================================================== * 
@@ -176,6 +178,27 @@ echo
 echo -e " Êxito !"
 echo
 
+sleep 1
+echo -ne ${b_green}'👾     (10%%)\r '
+sleep 1
+echo -ne '👾 👾     20%)\r '
+sleep 1
+echo -ne '👾 👾 👾     (30%)\r '
+sleep 1
+echo -ne '👾 👾 👾 👾     (40%)\r '
+sleep 1
+echo -ne '👾 👾 👾 👾 👾     (50%)\r '
+sleep 1
+echo -ne '👾 👾 👾 👾 👾 👾 👾     (60%)\r '
+sleep 1
+echo -ne '👾 👾 👾 👾 👾 👾 👾 👾     (70%)\r '
+sleep 1
+echo -ne '👾 👾 👾 👾 👾 👾 👾 👾 👾     (80%)\r '
+sleep 1
+echo -ne '👾 👾 👾 👾 👾 👾 👾 👾 👾 👾     (100%)\r ' ${nc}
+echo -ne '\n'
+sleep 2
+
 echo
 #fim
 
@@ -189,7 +212,6 @@ echo
 sleep 2
 sudo tar -jxvf  firefox-dev.bz2 -C /opt/ && \
 sleep 1
-sudo rm -Rf installer-firefox-developer* && \
 
 echo
 echo -e " Êxito !"
@@ -229,7 +251,7 @@ echo
 #fim
 
 # Criando atalho do firefox-dev
-echo " 🐧 Criando atalho do firefox-dev "
+echo " 🐧 Criando atalho do firefox-dev 🌀 "
 echo
 sleep 1
 echo -e " 🔴  ${b_green} sudo ln -sf /opt/firefox-developer/firefox /usr/bin/firefox-developer "
@@ -267,12 +289,46 @@ echo -e " ${nc}Êxito !"
 echo
 #fim
 
+# Exclui o diretório antigo com arquivos de uma instalação anterior
+echo " 🐧 excluindo diretório de instalação  "
+echo
+sleep 1
+echo -e " 🔴 ${b_green}sudo rm -Rf installer-firefox-developer* "
+echo
+
+sleep 1
+echo -ne ${b_green}'🟩🟩🟩🟩🟩    (33%)\r '
+sleep 1
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (50%)\r '
+sleep 1
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (100%)\r ' ${nc}
+echo -ne '\n'
+sleep 2
+
+echo
+echo -e " Êxito !"
+echo
+ 
+sleep 2
+
+cd ..
+sudo rm -Rf installer-firefox-developer*
+
+echo
+#fim
+
 # printando a mensagem de agradecimento no terminal
 sleep 2
 
 
 echo
-echo -ne " 🙌 obrigado por usar este script. Compartilhe !" 
+echo -e " 🙌 obrigado por usar este script. \n O firefox se encontra na sua seção de Aplicativos!" 
+echo
+sleep 1
+echo -e " Compartilhe !" && \
+
+echo -ne '\n'
+
 echo
 echo
 
