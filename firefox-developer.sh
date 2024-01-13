@@ -81,7 +81,7 @@ sudo rm -Rf /usr/bin/firefox-developer && \
 echo
 #fim 
 
-# Exclui o icone do Firefox DEv da seção de snaps
+# Exclui o icone do Firefox DEv da seção de snaps (( snApps ))
 echo " 🐧 Excluindo icone de atalho do firefox-dev na seção de Snaps "
 echo
 sleep 1
