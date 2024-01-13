@@ -169,7 +169,7 @@ echo -e " 🔴 ${b_green} https://download.mozilla.org/?product=firefox-devediti
 echo 
 
 
-sleep2
+sleep 2
 wget "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US" -O firefox-dev.bz2 && \
 
 echo
