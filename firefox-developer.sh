@@ -255,7 +255,8 @@ echo " 🐧 Criando novo icone de atalho do firefox-dev na seção de Snaps"
 echo
 
 sleep 2
- echo -e ' ✅ [Desktop Entry]\n 
+ echo -ne ' ${b_green}
+ ✅ [Desktop Entry]\n 
  ✅ Version=yy.y.y\n 
  ✅ Encoding=UTF-8\n 
  ✅ Name=Mozilla Firefox\n 
