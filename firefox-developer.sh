@@ -180,7 +180,7 @@ echo
 echo 
 
 sleep 1
-echo -ne ${b_green}'👾     (1%%)\r '
+echo -ne ${b_green}'👾     (10%%)\r '
 sleep 1
 echo -ne '👾 👾     20%)\r '
 sleep 1
@@ -190,7 +190,11 @@ echo -ne '👾 👾 👾 👾     (40%)\r '
 sleep 1
 echo -ne '👾 👾 👾 👾 👾     (50%)\r '
 sleep 1
-echo -ne '👾 👾 👾 👾 👾 👾     (60%)\r '
+echo -ne '👾 👾 👾 👾 👾 👾 👾     (60%)\r '
+sleep 1
+echo -ne '👾 👾 👾 👾 👾 👾 👾 👾     (70%)\r '
+sleep 1
+echo -ne '👾 👾 👾 👾 👾 👾 👾 👾 👾     (80%)\r '
 sleep 1
 echo -ne '👾 👾 👾 👾 👾 👾 👾 👾 👾 👾     (100%)\r ' ${nc}
 echo -ne '\n'
@@ -319,10 +323,14 @@ sleep 2
 
 
 echo
-echo -ne " 🙌 obrigado por usar este script. Compartilhe !" 
+echo -e " 🙌 obrigado por usar este script. \n O firefox irá iniciar e lembre-se que ele se encontra na sua seção de Aplicativos Compartilhe !" 
 echo
-echo
+sleep 1
+echo -e " ${on_yellow} Compartilhe !" 
 
+echo
+sleep 2
+firefox-developer
 
 #Options to Developers
 
