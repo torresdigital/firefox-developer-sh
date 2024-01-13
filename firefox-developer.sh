@@ -165,7 +165,7 @@ echo
 echo " 🐧 iniciando o download do Firefox DEv"
 echo
 sleep 1
-echo -e " 🔴 ${b_green} https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US -O firefox-dev.bz2 " ${nc}
+echo -e " 🔴 ${b_green} https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US ${nc} -O firefox-dev.bz2 " 
 echo 
 
 
@@ -220,12 +220,14 @@ echo
 
 sleep 2
 sudo mv /opt/firefox*/ /opt/firefox-developer && \
+sudo rm -Rf installer-firefox-developer* && \
+
 
 echo
 #fim
 
-# Criando atalho do firefox-dev no diretório do usuário  
-echo " 🐧 Criando atalho do firefox-dev no diretório do usuário "
+# Criando atalho do firefox-dev
+echo " 🐧 Criando atalho do firefox-dev "
 echo
 sleep 1
 echo -e " 🔴  ${b_green} sudo ln -sf /opt/firefox-developer/firefox /usr/bin/firefox-developer "
@@ -255,26 +257,16 @@ echo " 🐧 Criando novo icone de atalho do firefox-dev na seção de Snaps"
 echo
 
 sleep 2
- echo -ne  ${b_green}'
- ✅ [Desktop Entry]\n 
- ✅ Version=yy.y.y\n 
- ✅ Encoding=UTF-8\n 
- ✅ Name=Mozilla Firefox\n 
- ✅ Comment=Navegador Web\n 
- ✅ Exec=/opt/firefox-developer/firefox\n 
- ✅ Icon=/opt/firefox-developer/browser/chrome/icons/default/default128.png\n 
- ✅ ype=Application\n 
- ✅ Categories=Network' | sudo tee /usr/share/applications/firefox-developer.desktop && \
+ echo -e  ${b_green} '[Desktop Entry]\n Version=yy.y.y\n Encoding=UTF-8\n Name=Mozilla Firefox\n Comment=Navegador Web\n Exec=/opt/firefox-developer/firefox\n Icon=/opt/firefox-developer/browser/chrome/icons/default/default128.png\n Type=Application\n Categories=Network' | sudo tee /usr/share/applications/firefox-developer.desktop && \
+
 
 echo
-echo -e " Êxito !"
+echo -e " ${nc}Êxito !"
 echo
 #fim
 
 # printando a mensagem de agradecimento no terminal
 sleep 2
-
-sudo rm -Rf installer-firefox-developer* && \
 
 
 echo
