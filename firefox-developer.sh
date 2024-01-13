@@ -265,7 +265,7 @@ echo
 # printando a mensagem de agradecimento no terminal
 sleep 2
 
-echo -e " 🐧 obrigado por usar este script. Compartilhe !\n 🐧 thanks for use this script. Share ! " 
+echo -ne " 🙌 ${b_green}🐧 obrigado por usar este script. Compartilhe !\n 🐧 thanks for use this script. Share ! " 
 
 echo
 
