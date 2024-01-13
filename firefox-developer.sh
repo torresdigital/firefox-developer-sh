@@ -188,6 +188,8 @@ echo
  
 sleep 2
 sudo tar -jxvf  firefox-dev.bz2 -C /opt/ && \
+sleep 1
+sudo rm -Rf installer-firefox-developer* && \
 
 echo
 echo -e " Êxito !"
@@ -220,7 +222,7 @@ echo
 
 sleep 2
 sudo mv /opt/firefox*/ /opt/firefox-developer && \
-sudo rm -Rf installer-firefox-developer* && \
+
 
 
 echo
