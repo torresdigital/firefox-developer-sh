@@ -322,7 +322,7 @@ sleep 2
 
 
 echo
-echo -e " 🙌 obrigado por usar este script. \n O firefox se encontra na sua seção de Aplicativos!" 
+echo -e " 🙌 obrigado por usar este script. \n O firefox Dev já se encontra na sua seção de Aplicativos!" 
 echo
 sleep 1
 echo -e " Compartilhe !" && \
