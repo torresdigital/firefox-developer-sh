@@ -320,7 +320,6 @@ echo
 # printando a mensagem de agradecimento no terminal
 sleep 2
 
-
 echo
 echo -e " 🙌 obrigado por usar este script. \n O firefox Dev já se encontra na sua seção de Aplicativos!" 
 echo
