@@ -137,7 +137,7 @@ echo
 
 
 # criando uma outra pasta com o atual Firefox DEv
-echo " 🐧 criando diretório para receber o donwload do Firefox DEv"
+echo " 🐧 criando diretório para receber o download do Firefox DEv"
 echo
 sleep 1
 echo -e " 🔴 ${b_green}mkdir installer-firefox-developer && cd installer-firefox-developer "
@@ -320,9 +320,8 @@ echo
 # printando a mensagem de agradecimento no terminal
 sleep 2
 
-
 echo
-echo -e " 🙌 obrigado por usar este script. \n O firefox se encontra na sua seção de Aplicativos!" 
+echo -e " 🙌 obrigado por usar este script. \n O firefox Dev já se encontra na sua seção de Aplicativos!" 
 echo
 sleep 1
 echo -e " Compartilhe !" && \
