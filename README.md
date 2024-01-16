@@ -31,4 +31,4 @@ cd firefox-developer-sh && \
 chmod +x firefox-developer-pt-br.sh && \
 sudo ./firefox-developer-pt-br.sh
 ```
-![alt text](https://github.com/atorresbr/firefox-developer-sh/blob/main/img/firefox-developer-edition-installer-and-update-to-linux.jpg)
+![alt text](https://github.com/atorresbr/firefox-developer-sh/blob/main/img/base-fire-fox-sirius.jpg)

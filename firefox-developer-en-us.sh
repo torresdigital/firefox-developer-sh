@@ -5,7 +5,6 @@
 
 
 
-#função usada para enviar mensagem caso o usuário nao esteja usando o comando sudo
 #this functio send the error mesage to user if his not use the sudo command
 if [ "$(whoami)" != "root" ]
 then
@@ -32,7 +31,7 @@ nc='\033[0m'          # No Color
 #================================================== *
 
 # Excluindo arquivos do firefox DEv da pasta opt
-echo  -e " 🐧 Excluindo arquivos legados do FIREFOX DEv no diretorio opt \n 🐧 Excluding legacy Firefox achives on opt diretory"
+echo  -e " 🐧 Excluding legacy Firefox achives on opt diretory"
 echo
 sleep 1
 echo  -e " 🔴${b_green} sudo rm -Rf /opt/firefox-developer* " ${nc} 
@@ -58,7 +57,7 @@ echo
 #fim
 
 # Exclui os arquivos do firefov DEv da pasta bin
-echo " 🐧 Excluindo arquivos legados do FIREFOX DEv no diretório bin "
+echo " 🐧 Excluding the legacy achives on bin directory "
 echo
 sleep 1
 echo  -e " 🔴 ${b_green}sudo rm -Rf /usr/bin/firefox-developer "
@@ -84,7 +83,7 @@ echo
 #fim 
 
 # Exclui o icone do Firefox DEv da seção de snaps (( snApps ))
-echo " 🐧 Excluindo icone de atalho do firefox-dev na seção de Snaps "
+echo " 🐧 Excluding the firefox-dev icon on Snaps section "
 echo
 sleep 1
 echo  -e " 🔴 ${b_green}sudo rm -Rf /usr/share/applications/firefox-developer.desktop "
