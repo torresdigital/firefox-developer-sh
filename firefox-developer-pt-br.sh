@@ -31,7 +31,7 @@ nc='\033[0m'          # No Color
 #================================================== *
 
 # Excluindo arquivos do firefox DEv da pasta opt
-echo  -e " 🐧 Excluindo arquivos legados do FIREFOX DEv no diretorio opt"
+echo  -e " 🐧 Excluindo arquivos legados do FIREFOX DEv no diretorio opt "
 echo
 sleep 1
 echo  -e " 🔴${b_green} sudo rm -Rf /opt/firefox-developer* " ${nc} 
