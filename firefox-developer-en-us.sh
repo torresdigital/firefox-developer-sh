@@ -9,7 +9,7 @@
 if [ "$(whoami)" != "root" ]
 then
   echo
-    echo -e " 🔴 use sudo para usar este script "
+    echo -e " 🔴 use sudo to run this script "
   echo
   exit 1
 fi
@@ -31,7 +31,7 @@ nc='\033[0m'          # No Color
 #================================================== *
 
 # Excluindo arquivos do firefox DEv da pasta opt
-echo  -e " 🐧 Excluding legacy Firefox achives on opt diretory"
+echo  -e " 🐧 Deleting legacy Firefox achives on opt diretory"
 echo
 sleep 1
 echo  -e " 🔴${b_green} sudo rm -Rf /opt/firefox-developer* " ${nc} 
@@ -57,7 +57,7 @@ echo
 #fim
 
 # Exclui os arquivos do firefov DEv da pasta bin
-echo " 🐧 Excluding the legacy achives on bin directory "
+echo " 🐧 Deleting the legacy achives on bin directory "
 echo
 sleep 1
 echo  -e " 🔴 ${b_green}sudo rm -Rf /usr/bin/firefox-developer "
@@ -83,7 +83,7 @@ echo
 #fim 
 
 # Exclui o icone do Firefox DEv da seção de snaps (( snApps ))
-echo " 🐧 Excluding the firefox-dev icon on Snaps section "
+echo " 🐧 Deleting the firefox-dev icon on Snaps section "
 echo
 sleep 1
 echo  -e " 🔴 ${b_green}sudo rm -Rf /usr/share/applications/firefox-developer.desktop "
@@ -109,7 +109,7 @@ echo
 #fim
 
 # Exclui o diretório antigo com arquivos de uma instalação anterior
-echo " 🐧 excluindo diretório antigo com arquivos de uma instalação anterior "
+echo " 🐧 Deleting old directory with files from a previous installation "
 echo
 sleep 1
 echo -e " 🔴 ${b_green}sudo rm -Rf installer-firefox-developer* "
@@ -136,7 +136,7 @@ echo
 
 
 # criando uma outra pasta com o atual Firefox DEv
-echo " 🐧 criando diretório para receber o download do Firefox DEv"
+echo " 🐧 Creating directory to receive Firefox DEv download "
 echo
 sleep 1
 echo -e " 🔴 ${b_green}mkdir installer-firefox-developer && cd installer-firefox-developer "
