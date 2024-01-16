@@ -11,6 +11,3 @@ this script install automatically the Firefox Browser Developer Edition and auto
 
 
 ![alt text](https://github.com/atorresbr/firefox-developer-sh/blob/main/img/firefox-developer-edition-installer-and-update-to-linux.jpg)
-
-
-
