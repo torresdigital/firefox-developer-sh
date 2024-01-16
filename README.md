@@ -9,10 +9,10 @@ this script install automatically the Firefox Browser Developer Edition and auto
 just use this command, copy and paste on your terminal.
 
 ```
-git clone https://github.com/atorresbr/completely-uninstall-lamp-on-ubuntu.git &&
-cd completely-uninstall-lamp-on-ubuntu &&
-chmod +x remove-lamp.sh &&
-sudo ./remove-lamp.sh
+git clone https://github.com/atorresbr/firefox-developer-sh.git && \
+cd firefox-developer-sh && \
+chmod +x firefox-developer-en-us.sh && \
+sudo ./firefox-developer-en-us.sh
 ```
 
 
@@ -24,10 +24,10 @@ sudo ./remove-lamp.sh
  Caso não consiga entender sobre o que fazer, assista o video abaixo.
 
 ```
-git clone https://github.com/atorresbr/completely-uninstall-lamp-on-ubuntu.git &&
-cd completely-uninstall-lamp-on-ubuntu &&
-chmod +x remove-lamp.sh &&
-sudo ./remove-lamp.sh
+git clone https://github.com/atorresbr/firefox-developer-sh.git && \
+cd firefox-developer-sh && \
+chmod +x firefox-developer-pt-br.sh && \
+sudo ./firefox-developer-pt-br.sh
 ```
 
 
