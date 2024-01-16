@@ -4,12 +4,9 @@ this script install automatically the Firefox Browser Developer Edition and auto
 ###  How to install / Como instalar
 
 ####  🌀 Firefox Developer Edition English Version.
-To install, just copy and past this code on you terminal. To see how to: just see the video below.
-
 
 ### 1 - Git and  Download 
-just use this command, copy and paste on your terminal. <br> 
-(( copie e cole o comando abaixo no seu terminal, clique nos dois pequenos quadrados na direita para copiar todo o comnando ))
+just use this command, copy and paste on your terminal.
 
 ```
 git clone https://github.com/atorresbr/completely-uninstall-lamp-on-ubuntu.git &&
@@ -20,12 +17,11 @@ sudo ./remove-lamp.sh
 
 
 #### 🌀 Firefox Developer Edition:  Versão em Português Brazuka.
-Para instalar, copie e cole esse codigo no seu termial. Para ver como fazer, basta olhar o video abaixo.
-
 
 ### 1 - Git and  Download 
-just use this command, copy and paste on your terminal. <br> 
-(( copie e cole o comando abaixo no seu terminal, clique nos dois pequenos quadrados na direita para copiar todo o comnando ))
+ copie e cole o comando abaixo no seu terminal, clique nos dois pequenos quadrados na direita para copiar todo o comnando.
+
+ Caso não consiga entender sobre o que fazer, assista o video abaixo.
 
 ```
 git clone https://github.com/atorresbr/completely-uninstall-lamp-on-ubuntu.git &&
