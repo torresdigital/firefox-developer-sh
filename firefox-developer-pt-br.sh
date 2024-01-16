@@ -31,7 +31,7 @@ nc='\033[0m'          # No Color
 #================================================== *
 
 # Excluindo arquivos do firefox DEv da pasta opt
-echo  -e " 🐧 Excluindo arquivos legados do FIREFOX DEv no diretorio opt "
+echo  -e " 🐧 Excluindo arquivos legados do FIREFOX DEv no diretorio opt"
 echo
 sleep 1
 echo  -e " 🔴${b_green} sudo rm -Rf /opt/firefox-developer* " ${nc} 
@@ -166,7 +166,7 @@ echo
 echo " 🐧 iniciando o download do Firefox DEv"
 echo
 sleep 1
-echo -e " 🔴 ${b_green} https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US ${nc} -O firefox-dev.bz2 " 
+echo -e " 🔴 ${b_green} https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=pt-BR ${nc} -O firefox-dev.bz2 " 
 echo 
 
 
