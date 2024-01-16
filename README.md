@@ -3,11 +3,13 @@ this script install automatically the Firefox Browser Developer Edition and auto
 
 ## How to install / Como instalar
 
-####  Firefox Developer Edition English Version. <br> To install, just copy and past this code on you terminal. To see how to: just see the video below.
+### 🌀 Firefox Developer Edition English Version.
+To install, just copy and past this code on you terminal. To see how to: just see the video below.
 
 
 
-####  Firefox Developer Edition:  Versão em Português Brazuka. <br> Para instalar, copie e cole esse codigo no seu termial. Para ver como fazer, basta olhar o video abaixo.
+### 🌀  Firefox Developer Edition:  Versão em Português Brazuka.
+Para instalar, copie e cole esse codigo no seu termial. Para ver como fazer, basta olhar o video abaixo.
 
 
 
