@@ -249,8 +249,8 @@ sudo mv /opt/firefox*/ /opt/firefox-developer && \
 echo
 #end
 
-# Creating the shortcut icon to run Firefox Dev on Snaps section
-echo " 🐧 Creating the shortcut icon to run Firefox Dev on Snaps section 🌀 "
+# Creating the shortcut to run Firefox Dev
+echo " 🐧 Creating the shortcut to run Firefox Dev"
 echo
 sleep 1
 echo -e " 🔴  ${b_green} sudo ln -sf /opt/firefox-developer/firefox /usr/bin/firefox-developer "
@@ -275,8 +275,8 @@ sudo ln -sf /opt/firefox-developer/firefox /usr/bin/firefox-developer && \
 echo
 #fim
 
-# Criando novo icone de atalho do firefox-dev na seção de Snaps (( snApps )) 
-echo " 🐧 Criando novo icone de atalho do firefox-dev na seção de Snaps"
+# Creating the icon shortcut to run Firefox Dev on snApps section (( snApps )) 
+echo " 🐧 Creating the shortcut icon to run Firefox Dev on Snaps (( snApps )) user section"
 echo
 
 sleep 2
