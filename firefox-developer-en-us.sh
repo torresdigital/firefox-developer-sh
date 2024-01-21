@@ -47,7 +47,7 @@ echo -ne '\n'
 sleep 2
 
 echo
-echo -e " Êxito !"
+echo -e " Succes !"
 echo
 
 sleep 2
@@ -73,7 +73,7 @@ echo -ne '\n'
 sleep 2
 
 echo
-echo -e " Êxito !"
+echo -e " Succes !"
 echo
 
 sleep 2
@@ -99,7 +99,7 @@ echo -ne '\n'
 sleep 2
 
 echo
-echo -e " Êxito !"
+echo -e " Succes !"
 echo
 
 sleep 2
@@ -125,7 +125,7 @@ echo -ne '\n'
 sleep 2
 
 echo
-echo -e " Êxito !"
+echo -e " Succes !"
 echo
  
 sleep 2
@@ -152,7 +152,7 @@ echo -ne '\n'
 sleep 2
  
 echo
-echo -e " Êxito !"
+echo -e " Succes !"
 echo
 
 
@@ -174,7 +174,7 @@ sleep 2
 wget "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US" -O firefox-dev.bz2 && \
 
 echo
-echo -e " Êxito !"
+echo -e " Succes !"
 echo
 
 sleep 1
@@ -213,7 +213,7 @@ sudo tar -jxvf  firefox-dev.bz2 -C /opt/ && \
 sleep 1
 
 echo
-echo -e " Êxito !"
+echo -e " Succes !"
 echo
 
 echo
@@ -236,7 +236,7 @@ echo -ne '\n'
 sleep 2
  
 echo
-echo -e " Êxito !"
+echo -e " Succes !"
 echo
 
 
@@ -266,7 +266,7 @@ echo -ne '\n'
 sleep 2
  
 echo
-echo -e " Êxito !"
+echo -e " Succes !"
 echo
 
 sleep 2
@@ -284,7 +284,7 @@ sleep 2
 
 
 echo
-echo -e " ${nc}Êxito !"
+echo -e " ${nc}Succes !"
 echo
 #fim
 
@@ -305,7 +305,7 @@ echo -ne '\n'
 sleep 2
 
 echo
-echo -e " Êxito !"
+echo -e " Succes !"
 echo
  
 sleep 2
