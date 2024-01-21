@@ -220,7 +220,7 @@ echo
 #fim
 
 # renomeando a pasta dos arquivos de firefox para firefox-dev
-echo " 🐧 renomeando o diretório dos arquivos de firefox para firefox-developer"
+echo " 🐧 Renaming the firefox archives directory to firefox-developer"
 echo
 sleep 1
 echo -e " 🔴 ${b_green} sudo mv /opt/firefox*/ /opt/firefox-developer "
