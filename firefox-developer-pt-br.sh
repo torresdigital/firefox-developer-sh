@@ -1,6 +1,6 @@
 #!/bin/bash
 ## Bash Script to install automatically Fire Fox Developer EDITION
-## By a.torres
+## By a.torres <https://www.facebook.com/profile.php?id=100007143210386>
 ## see <https://github.com/atorresbr>
 
 

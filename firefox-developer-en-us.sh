@@ -1,16 +1,15 @@
 #!/bin/bash
 ## Bash Script to install automatically Fire Fox Developer EDITION
-## By a.torres
+## By a.torres <https://www.facebook.com/profile.php?id=100007143210386>
 ## see <https://github.com/atorresbr>
 
 
 
-#função usada para enviar mensagem caso o usuário nao esteja usando o comando sudo
 #this functio send the error mesage to user if his not use the sudo command
 if [ "$(whoami)" != "root" ]
 then
   echo
-    echo -e " 🔴 use sudo para usar este script "
+    echo -e " 🔴 use sudo to run this script "
   echo
   exit 1
 fi
@@ -32,7 +31,7 @@ nc='\033[0m'          # No Color
 #================================================== *
 
 # Excluindo arquivos do firefox DEv da pasta opt
-echo  -e " 🐧 Excluindo arquivos legados do FIREFOX DEv no diretorio opt \n 🐧 Excluding legacy Firefox achives on opt diretory"
+echo  -e " 🐧 Deleting legacy Firefox achives on opt diretory"
 echo
 sleep 1
 echo  -e " 🔴${b_green} sudo rm -Rf /opt/firefox-developer* " ${nc} 
@@ -58,7 +57,7 @@ echo
 #fim
 
 # Exclui os arquivos do firefov DEv da pasta bin
-echo " 🐧 Excluindo arquivos legados do FIREFOX DEv no diretório bin "
+echo " 🐧 Deleting the legacy achives on bin directory "
 echo
 sleep 1
 echo  -e " 🔴 ${b_green}sudo rm -Rf /usr/bin/firefox-developer "
@@ -84,7 +83,7 @@ echo
 #fim 
 
 # Exclui o icone do Firefox DEv da seção de snaps (( snApps ))
-echo " 🐧 Excluindo icone de atalho do firefox-dev na seção de Snaps "
+echo " 🐧 Deleting the firefox-dev icon on Snaps section "
 echo
 sleep 1
 echo  -e " 🔴 ${b_green}sudo rm -Rf /usr/share/applications/firefox-developer.desktop "
@@ -110,7 +109,7 @@ echo
 #fim
 
 # Exclui o diretório antigo com arquivos de uma instalação anterior
-echo " 🐧 excluindo diretório antigo com arquivos de uma instalação anterior "
+echo " 🐧 Deleting old directory with files from a previous installation "
 echo
 sleep 1
 echo -e " 🔴 ${b_green}sudo rm -Rf installer-firefox-developer* "
@@ -137,7 +136,7 @@ echo
 
 
 # criando uma outra pasta com o atual Firefox DEv
-echo " 🐧 criando diretório para receber o download do Firefox DEv"
+echo " 🐧 Creating directory to receive Firefox DEv download "
 echo
 sleep 1
 echo -e " 🔴 ${b_green}mkdir installer-firefox-developer && cd installer-firefox-developer "
@@ -164,7 +163,7 @@ echo
 #fim
 
 # fazendo o Donload
-echo " 🐧 iniciando o download do Firefox DEv"
+echo " 🐧 starting the Firefox DEv download"
 echo
 sleep 1
 echo -e " 🔴 ${b_green} https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US ${nc} -O firefox-dev.bz2 " 
@@ -203,7 +202,7 @@ echo
 #fim
 
 # Extraindo os arquivos
-echo " 🐧 Extraindo os arquivos do encapsulamento"
+echo " 🐧 Extracting the files from the encapsulation"
 echo
 sleep 1
 echo -e " 🔴 ${b_green} sudo tar -jxvf  firefox-dev.bz2 -C /opt/ " ${nc}
