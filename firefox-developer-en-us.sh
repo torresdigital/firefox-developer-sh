@@ -1,6 +1,6 @@
 #!/bin/bash
 ## Bash Script to install automatically Fire Fox Developer EDITION
-## By a.torres
+## By a.torres <https://www.facebook.com/profile.php?id=100007143210386>
 ## see <https://github.com/atorresbr>
 
 
@@ -163,7 +163,7 @@ echo
 #fim
 
 # fazendo o Donload
-echo " 🐧 iniciando o download do Firefox DEv"
+echo " 🐧 starting the Firefox DEv download"
 echo
 sleep 1
 echo -e " 🔴 ${b_green} https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US ${nc} -O firefox-dev.bz2 " 
@@ -202,7 +202,7 @@ echo
 #fim
 
 # Extraindo os arquivos
-echo " 🐧 Extraindo os arquivos do encapsulamento"
+echo " 🐧 Extracting the files from the encapsulation"
 echo
 sleep 1
 echo -e " 🔴 ${b_green} sudo tar -jxvf  firefox-dev.bz2 -C /opt/ " ${nc}
