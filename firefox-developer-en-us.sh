@@ -162,8 +162,8 @@ mkdir installer-firefox-developer && cd installer-firefox-developer && \
 echo
 #fim
 
-# fazendo o Donload
-echo " 🐧 starting the Firefox DEv download"
+# fStarting the Firefox Dev achives download
+echo " 🐧 Starting the Firefox Dev achives download"
 echo
 sleep 1
 echo -e " 🔴 ${b_green} https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US ${nc} -O firefox-dev.bz2 " 
@@ -201,7 +201,7 @@ sleep 2
 echo
 #fim
 
-# Extraindo os arquivos
+# Extracting the files from the encapsulation
 echo " 🐧 Extracting the files from the encapsulation"
 echo
 sleep 1
@@ -219,7 +219,7 @@ echo
 echo
 #fim
 
-# renomeando a pasta dos arquivos de firefox para firefox-dev
+# Renaming the firefox archives directory to firefox-developer
 echo " 🐧 Renaming the firefox archives directory to firefox-developer"
 echo
 sleep 1
@@ -247,10 +247,10 @@ sudo mv /opt/firefox*/ /opt/firefox-developer && \
 
 
 echo
-#fim
+#end
 
-# Criando atalho do firefox-dev
-echo " 🐧 Criando atalho do firefox-dev 🌀 "
+# Creating the shortcut icon to run Firefox Dev on Snaps section
+echo " 🐧 Creating the shortcut icon to run Firefox Dev on Snaps section 🌀 "
 echo
 sleep 1
 echo -e " 🔴  ${b_green} sudo ln -sf /opt/firefox-developer/firefox /usr/bin/firefox-developer "
