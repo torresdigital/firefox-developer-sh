@@ -47,7 +47,7 @@ echo -ne '\n'
 sleep 2
 
 echo
-echo -e " Êxito !"
+echo -e " Succes !"
 echo
 
 sleep 2
@@ -73,7 +73,7 @@ echo -ne '\n'
 sleep 2
 
 echo
-echo -e " Êxito !"
+echo -e " Succes !"
 echo
 
 sleep 2
@@ -99,7 +99,7 @@ echo -ne '\n'
 sleep 2
 
 echo
-echo -e " Êxito !"
+echo -e " Succes !"
 echo
 
 sleep 2
@@ -125,7 +125,7 @@ echo -ne '\n'
 sleep 2
 
 echo
-echo -e " Êxito !"
+echo -e " Succes !"
 echo
  
 sleep 2
@@ -152,7 +152,7 @@ echo -ne '\n'
 sleep 2
  
 echo
-echo -e " Êxito !"
+echo -e " Succes !"
 echo
 
 
@@ -162,8 +162,8 @@ mkdir installer-firefox-developer && cd installer-firefox-developer && \
 echo
 #fim
 
-# fazendo o Donload
-echo " 🐧 starting the Firefox DEv download"
+# fStarting the Firefox Dev achives download
+echo " 🐧 Starting the Firefox Dev achives download"
 echo
 sleep 1
 echo -e " 🔴 ${b_green} https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US ${nc} -O firefox-dev.bz2 " 
@@ -174,7 +174,7 @@ sleep 2
 wget "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US" -O firefox-dev.bz2 && \
 
 echo
-echo -e " Êxito !"
+echo -e " Succes !"
 echo
 
 sleep 1
@@ -201,7 +201,7 @@ sleep 2
 echo
 #fim
 
-# Extraindo os arquivos
+# Extracting the files from the encapsulation
 echo " 🐧 Extracting the files from the encapsulation"
 echo
 sleep 1
@@ -213,14 +213,14 @@ sudo tar -jxvf  firefox-dev.bz2 -C /opt/ && \
 sleep 1
 
 echo
-echo -e " Êxito !"
+echo -e " Succes !"
 echo
 
 echo
 #fim
 
-# renomeando a pasta dos arquivos de firefox para firefox-dev
-echo " 🐧 renomeando o diretório dos arquivos de firefox para firefox-developer"
+# Renaming the firefox archives directory to firefox-developer
+echo " 🐧 Renaming the firefox archives directory to firefox-developer"
 echo
 sleep 1
 echo -e " 🔴 ${b_green} sudo mv /opt/firefox*/ /opt/firefox-developer "
@@ -236,7 +236,7 @@ echo -ne '\n'
 sleep 2
  
 echo
-echo -e " Êxito !"
+echo -e " Succes !"
 echo
 
 
@@ -247,10 +247,10 @@ sudo mv /opt/firefox*/ /opt/firefox-developer && \
 
 
 echo
-#fim
+#end
 
-# Criando atalho do firefox-dev
-echo " 🐧 Criando atalho do firefox-dev 🌀 "
+# Creating the shortcut to run Firefox Dev
+echo " 🐧 Creating the shortcut to run Firefox Dev"
 echo
 sleep 1
 echo -e " 🔴  ${b_green} sudo ln -sf /opt/firefox-developer/firefox /usr/bin/firefox-developer "
@@ -266,7 +266,7 @@ echo -ne '\n'
 sleep 2
  
 echo
-echo -e " Êxito !"
+echo -e " Succes !"
 echo
 
 sleep 2
@@ -275,8 +275,8 @@ sudo ln -sf /opt/firefox-developer/firefox /usr/bin/firefox-developer && \
 echo
 #fim
 
-# Criando novo icone de atalho do firefox-dev na seção de Snaps (( snApps )) 
-echo " 🐧 Criando novo icone de atalho do firefox-dev na seção de Snaps"
+# Creating the icon shortcut to run Firefox Dev on snApps section (( snApps )) 
+echo " 🐧 Creating the shortcut icon to run Firefox Dev on Snaps (( snApps )) user section"
 echo
 
 sleep 2
@@ -284,7 +284,7 @@ sleep 2
 
 
 echo
-echo -e " ${nc}Êxito !"
+echo -e " ${nc}Succes !"
 echo
 #fim
 
@@ -305,7 +305,7 @@ echo -ne '\n'
 sleep 2
 
 echo
-echo -e " Êxito !"
+echo -e " Succes !"
 echo
  
 sleep 2
