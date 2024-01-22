@@ -32,3 +32,41 @@ chmod +x firefox-developer-pt-br.sh && \
 sudo ./firefox-developer-pt-br.sh
 ```
 ![alt text](https://github.com/atorresbr/firefox-developer-sh/blob/main/img/base-fire-fox-sirius.jpg)
+
+<br><br>
+
+## How to use / Como usar. 
+
+Click nas imagens para assistir um exemplo de como você pode usar o snApp para trabalhar com desenvolvimento FROT-END e BACK-END.
+
+Click on the images bellow to see an example how to use the App to Dev from FRONT and BACK Development.
+
+<br><br>
+
+<a href="https://www.facebook.com/torresdigital/videos/1370285286677688">
+  <img src="https://github.com/atorresbr/firefox-developer-sh/blob/main/img/01-firefox-dev.jpg" alt="Click me!" />
+</a>
+
+<br><br>
+
+<a href="https://www.facebook.com/torresdigital/videos/1370285286677688">
+  <img src="https://github.com/atorresbr/firefox-developer-sh/blob/main/img/02-firefox-dev.jpg" alt="Click me!" />
+</a>
+
+<br><br>
+
+<a href="https://www.facebook.com/torresdigital/videos/1370285286677688">
+  <img src="https://github.com/atorresbr/firefox-developer-sh/blob/main/img/03-firefox-dev.jpg" alt="Click me!" />
+</a>
+
+
+<br><br>
+
+<a href="https://www.facebook.com/torresdigital/videos/1370285286677688">
+  <img src="https://github.com/atorresbr/firefox-developer-sh/blob/main/img/04-firefox-dev.jpg" alt="Click me!" />
+</a>
+
+<br><br>
+
+
+
