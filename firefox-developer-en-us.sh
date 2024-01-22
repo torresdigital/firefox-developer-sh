@@ -288,8 +288,8 @@ echo -e " ${nc}Succes !"
 echo
 #fim
 
-# This command excludes the legacy directory instalation
-echo " 🐧 Excluding the instalation directory  "
+# This command excludes the directory instalation
+echo " 🐧 Excluding the instalation directory"
 echo
 sleep 1
 echo -e " 🔴 ${b_green}sudo rm -Rf installer-firefox-developer* "
