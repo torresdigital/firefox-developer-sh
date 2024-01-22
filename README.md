@@ -32,3 +32,10 @@ chmod +x firefox-developer-pt-br.sh && \
 sudo ./firefox-developer-pt-br.sh
 ```
 ![alt text](https://github.com/atorresbr/firefox-developer-sh/blob/main/img/base-fire-fox-sirius.jpg)
+
+
+
+## How to use / Como usar. (( https://www.facebook.com/torresdigital/videos/1370285286677688 ))
+
+[![IMAGE ALT TEXT](https://i.ytimg.com/vi/jW21aRnie3M/maxresdefault.jpg)]([https://www.facebook.com/torresdigital/videos/1370285286677688](https://www.facebook.com/torresdigital/videos/1370285286677688) "UNIX !!")
+
