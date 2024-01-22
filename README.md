@@ -33,7 +33,7 @@ sudo ./firefox-developer-pt-br.sh
 ```
 ![alt text](https://github.com/atorresbr/firefox-developer-sh/blob/main/img/base-fire-fox-sirius.jpg)
 
-
+<br><br>
 
 ## How to use / Como usar. 
 
