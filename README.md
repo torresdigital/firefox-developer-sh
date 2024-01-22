@@ -9,10 +9,11 @@ this script install automatically the Firefox Browser Developer Edition and auto
 just use this command, copy and paste on your terminal.
 
 ```
+sudo rm -Rf firefox-developer-sh*
 git clone https://github.com/atorresbr/firefox-developer-sh.git &&
 cd firefox-developer-sh &&
 chmod +x firefox-developer-en-us.sh &&
-sudo ./firefox-developer-en-us.sh -y
+sudo ./firefox-developer-en-us.sh
 ```
 
 ![alt text](https://github.com/atorresbr/firefox-developer-sh/blob/main/img/firefox-developer-edition-installer-and-update-to-linux.jpg)
