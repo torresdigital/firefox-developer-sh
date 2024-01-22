@@ -316,14 +316,14 @@ sudo rm -Rf installer-firefox-developer*
 echo
 #fim
 
-# printando a mensagem de agradecimento no terminal
+# printing the thanks mensage on the user terminal 
 sleep 2
 
 echo
-echo -e " 🙌 obrigado por usar este script. \n O firefox Dev já se encontra na sua seção de Aplicativos!" 
+echo -e " 🙌  Thanks to use this script. \n To run te Firefox Dev, just go to snApp's section and click on the Firefox Dev Icon" 
 echo
 sleep 1
-echo -e " Compartilhe !" && \
+echo -e " 😘 Share ❗, this script" && \
 
 echo -ne '\n'
 
