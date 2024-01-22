@@ -68,5 +68,3 @@ Click on the images bellow to see an example how to use the App to Dev from FRON
 
 <br><br>
 
-
-
