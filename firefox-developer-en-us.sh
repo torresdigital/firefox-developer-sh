@@ -288,8 +288,8 @@ echo -e " ${nc}Succes !"
 echo
 #fim
 
-# Exclui o diretório antigo com arquivos de uma instalação anterior
-echo " 🐧 excluindo diretório de instalação  "
+# This command excludes the legacy directory instalation
+echo " 🐧 Excluding the instalation directory  "
 echo
 sleep 1
 echo -e " 🔴 ${b_green}sudo rm -Rf installer-firefox-developer* "
