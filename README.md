@@ -47,20 +47,20 @@ Click on the images bellow to see an example how to use the App to Dev from FRON
   <img src="https://github.com/atorresbr/firefox-developer-sh/blob/main/img/01-firefox-dev.jpg" alt="Click me!" />
 </a>
 
-<br>
+<br><br>
 
 <a href="https://www.facebook.com/torresdigital/videos/1370285286677688">
   <img src="https://github.com/atorresbr/firefox-developer-sh/blob/main/img/02-firefox-dev.jpg" alt="Click me!" />
 </a>
 
-<br>
+<br><br>
 
 <a href="https://www.facebook.com/torresdigital/videos/1370285286677688">
   <img src="https://github.com/atorresbr/firefox-developer-sh/blob/main/img/03-firefox-dev.jpg" alt="Click me!" />
 </a>
 
 
-<br>
+<br><br>
 
 <a href="https://www.facebook.com/torresdigital/videos/1370285286677688">
   <img src="https://github.com/atorresbr/firefox-developer-sh/blob/main/img/04-firefox-dev.jpg" alt="Click me!" />
