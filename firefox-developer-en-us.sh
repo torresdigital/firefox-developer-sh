@@ -292,7 +292,7 @@ echo
 echo " 🐧 Excluding the instalation directory"
 echo
 sleep 1
-echo -e " 🔴 ${b_green}sudo rm -Rf installer-firefox-developer* "
+echo -e " 🔴 ${b_green} cd .. && sudo rm -Rf installer-firefox-developer* "
 echo
 
 sleep 1
