@@ -312,6 +312,7 @@ sleep 2
 
 cd ..
 sudo rm -Rf installer-firefox-developer* && \
+cd ..
 sudo rm -Rf firefox-developer-sh* && \
 
 echo
