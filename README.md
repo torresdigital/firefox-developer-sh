@@ -35,7 +35,7 @@ sudo ./firefox-developer-pt-br.sh
 
 <br><br>
 
-## How to use / Como usar. 
+# How to use / Como usar. 
 
 Click nas imagens para assistir um exemplo de como você pode usar o snApp para trabalhar com desenvolvimento FROT-END e BACK-END.
 
