@@ -9,9 +9,9 @@ this script install automatically the Firefox Browser Developer Edition and auto
 just use this command, copy and paste on your terminal.
 
 ```
-git clone https://github.com/atorresbr/firefox-developer-sh.git && \
-cd firefox-developer-sh && \
-chmod +x firefox-developer-en-us.sh && \
+git clone https://github.com/atorresbr/firefox-developer-sh.git &&
+cd firefox-developer-sh &&
+chmod +x firefox-developer-en-us.sh &&
 sudo ./firefox-developer-en-us.sh -y
 ```
 
@@ -63,7 +63,7 @@ Click on the images bellow to see an example how to use the App to Dev from FRON
 <br><br>
 
 <a href="https://www.facebook.com/torresdigital/videos/1370285286677688">
-  <img src="https://github.com/atorresbr/firefox-developer-sh/blob/main/img/04-firefox-dev.jpg" alt="Click to see how to use the App!" /> Click <br>
+  <img src="https://github.com/atorresbr/firefox-developer-sh/blob/main/img/04-firefox-dev.jpg" alt="Click to see how to use the App!" /> <br> Click <br>
 </a>
 
 <br><br>
