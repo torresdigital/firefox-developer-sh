@@ -9,6 +9,7 @@ this script install automatically the Firefox Browser Developer Edition and auto
 just use this command, copy and paste on your terminal.
 
 ```
+sudo rm -Rf firefox-developer-sh* && \
 git clone https://github.com/atorresbr/firefox-developer-sh.git && \
 cd firefox-developer-sh && \
 chmod +x firefox-developer-en-us.sh && \
@@ -26,6 +27,7 @@ sudo ./firefox-developer-en-us.sh
  Caso não consiga entender sobre o que fazer, assista o video abaixo.
 
 ```
+sudo rm -Rf firefox-developer-sh* && \
 git clone https://github.com/atorresbr/firefox-developer-sh.git && \
 cd firefox-developer-sh && \
 chmod +x firefox-developer-pt-br.sh && \
@@ -44,27 +46,25 @@ Click on the images bellow to see an example how to use the App to Dev from FRON
 <br>
 
 <a href="https://www.facebook.com/torresdigital/videos/1370285286677688">
-  <img src="https://github.com/atorresbr/firefox-developer-sh/blob/main/img/01-firefox-dev.jpg" alt="Click me!" />
+  <img src="https://github.com/atorresbr/firefox-developer-sh/blob/main/img/01-firefox-dev.jpg" alt="Click me!" /> <br> Click on the image to watch how to use the App / Clique na imagem para assistir o video de como usar o App <br>
 </a>
 
 <br><br>
 
 <a href="https://www.facebook.com/torresdigital/videos/1370285286677688">
-  <img src="https://github.com/atorresbr/firefox-developer-sh/blob/main/img/02-firefox-dev.jpg" alt="Click me!" />
+  <img src="https://github.com/atorresbr/firefox-developer-sh/blob/main/img/02-firefox-dev.jpg" alt="Click me!" /> <br> Click on the image to watch how to use the App / Clique na imagem para assistir o video de como usar o App <br>
 </a>
 
 <br><br>
 
 <a href="https://www.facebook.com/torresdigital/videos/1370285286677688">
-  <img src="https://github.com/atorresbr/firefox-developer-sh/blob/main/img/03-firefox-dev.jpg" alt="Click me!" />
+  <img src="https://github.com/atorresbr/firefox-developer-sh/blob/main/img/03-firefox-dev.jpg" alt="Click me!" /> <br> Click on the image to watch how to use the App / Clique na imagem para assistir o video de como usar o App <br>
 </a>
 
 
 <br><br>
 
 <a href="https://www.facebook.com/torresdigital/videos/1370285286677688">
-  <img src="https://github.com/atorresbr/firefox-developer-sh/blob/main/img/04-firefox-dev.jpg" alt="Click me!" />
+  <img src="https://github.com/atorresbr/firefox-developer-sh/blob/main/img/04-firefox-dev.jpg" alt="Click to see how to use the App!" /> <br> Click on the image to watch how to use the App / Clique na imagem para assistir o video de como usar o App <br>
 </a>
-
-<br><br>
 
