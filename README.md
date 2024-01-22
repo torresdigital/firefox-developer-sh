@@ -35,7 +35,13 @@ sudo ./firefox-developer-pt-br.sh
 
 
 
-## How to use / Como usar. (( https://www.facebook.com/torresdigital/videos/1370285286677688 ))
+## How to use / Como usar. 
+
+Click no link para assistir um exemplo de como você pode usar o snApp para trabalhar com desenvolvimento FROT-END e BACK-END.
+
+Click on the link bellow to see an example to use the App to Dev from FRONT and BACK Development.
+
+
 
 [![IMAGE ALT TEXT](https://i.ytimg.com/vi/jW21aRnie3M/maxresdefault.jpg)]([https://www.facebook.com/torresdigital/videos/1370285286677688](https://www.facebook.com/torresdigital/videos/1370285286677688) "UNIX !!")
 
