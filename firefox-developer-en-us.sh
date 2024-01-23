@@ -314,9 +314,6 @@ cd ..
 sudo rm -Rf installer-firefox-developer* && \
 cd ..
 sudo rm -Rf firefox-developer-sh* && \
-cd ..
-
-ls 
 
 echo
 #fim
@@ -328,7 +325,7 @@ echo
 echo -e " 🙌  Thanks to use this script. \n To run te Firefox Dev, just go to snApp's section and click on the Firefox Dev Icon" 
 echo
 sleep 1
-echo -e " 😘 Share ❗, this script" && \
+echo -e " 😘 Share this script ❗" && \
 
 echo -ne '\n'
 
