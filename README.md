@@ -17,7 +17,7 @@ cd firefox-developer-sh &&
 chmod +x firefox-developer-en-us.sh && 
 sudo ./firefox-developer-en-us.sh
 
-echo PRESS ENTER
+
 ```
 
 ![alt text](https://github.com/atorresbr/firefox-developer-sh/blob/main/img/firefox-developer-edition-installer-and-update-to-linux.jpg)
