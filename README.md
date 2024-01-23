@@ -12,7 +12,7 @@ just use this command, copy and paste on your terminal.
 
 ```
 sudo rm -Rf firefox-developer-sh* &&
-git clone https://github.com/atorresbr/firefox-developer-sh.git
+git clone https://github.com/atorresbr/firefox-developer-sh.git &&
 cd firefox-developer-sh && 
 chmod +x firefox-developer-en-us.sh && 
 sudo ./firefox-developer-en-us.sh
