@@ -310,8 +310,11 @@ echo
  
 sleep 2
 
-cd .. /../
+cd ..
+sudo rm -Rf installer-firefox-developer* && \
+cd ..
 sudo rm -Rf firefox-developer-sh* && \
+cd ../
 
 ls 
 
