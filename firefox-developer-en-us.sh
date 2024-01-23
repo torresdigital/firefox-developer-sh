@@ -310,9 +310,10 @@ echo
  
 sleep 2
 
-cd ..
-sudo rm -Rf installer-firefox-developer* && \
+cd .. /../
 sudo rm -Rf firefox-developer-sh* && \
+
+ls 
 
 echo
 #fim
@@ -330,7 +331,6 @@ echo -ne '\n'
 
 echo
 echo
-
 
 #Options to Developers
 

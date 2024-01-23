@@ -1,5 +1,7 @@
 # 🌀 Firefox Developer Edition installer and update.
-this script install automatically the Firefox Browser Developer Edition and auto update to Linux Ubuntu and another distro based on Debian.
+this script install automatically the Firefox Browser Developer Edition and auto update to Linux Ubuntu and another distro based on Debian. Please, read all instructions on this page, to use install and the app properly
+
+Este script instala automaticamente
 
 ###  How to install / Como instalar
 
@@ -9,11 +11,12 @@ this script install automatically the Firefox Browser Developer Edition and auto
 just use this command, copy and paste on your terminal.
 
 ```
-sudo rm -Rf firefox-developer-sh* && \
-git clone https://github.com/atorresbr/firefox-developer-sh.git && \
-cd firefox-developer-sh && \
-chmod +x firefox-developer-en-us.sh && \
+sudo rm -Rf firefox-developer-sh* &&
+git clone https://github.com/atorresbr/firefox-developer-sh.git
+cd firefox-developer-sh && 
+chmod +x firefox-developer-en-us.sh && 
 sudo ./firefox-developer-en-us.sh
+
 ```
 
 ![alt text](https://github.com/atorresbr/firefox-developer-sh/blob/main/img/firefox-developer-edition-installer-and-update-to-linux.jpg)
