@@ -325,7 +325,7 @@ echo
 echo -e " 🙌 obrigado por usar este script. \n O firefox Dev já se encontra na sua seção de Aplicativos!" 
 echo
 sleep 1
-echo -e " Compartilhe !" && \
+echo -e " 😘 Compartilhe esse script ❗" && \
 
 echo -ne '\n'
 

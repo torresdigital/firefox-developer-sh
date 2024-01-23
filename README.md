@@ -1,18 +1,18 @@
 # 🌀 Firefox Developer Edition installer and update.
-this script install automatically the Firefox Browser Developer Edition and auto update to Linux Ubuntu and another distro based on Debian. Please, read all instructions on this page, to use install and the app properly
+This script install automatically the Firefox Browser Developer Edition and auto update to Linux Ubuntu and another distro based on Debian. Please, read all instructions on this page, to use install and the app properly.
 
-Este script instala automaticamente
+Este script instala e atualiza automaticamente o Firefox Developer Edition em qualquer Distro baseada em Debian. Por favor, siga todas as intruções para uma instalação correta. Na seção " Como usar ", há imagens onde você pode clicar e acessar um video mostrando o uso do App para desenvolvimento web com Wordpress Woocommerce.
 
 ###  How to install / Como instalar
 
 ####  🌀 Firefox Developer Edition English Version.
 
-### 1 - Git and  Download 
-just use this command, copy and paste on your terminal.
+### 1 - Git and  Download.
+just use this command below. Ccopy using the two littles squares on left, paste on your terminal, and press Enter.
 
 ```
 sudo rm -Rf firefox-developer-sh* &&
-git clone https://github.com/atorresbr/firefox-developer-sh.git
+git clone https://github.com/atorresbr/firefox-developer-sh.git &&
 cd firefox-developer-sh && 
 chmod +x firefox-developer-en-us.sh && 
 sudo ./firefox-developer-en-us.sh
@@ -35,6 +35,7 @@ git clone https://github.com/atorresbr/firefox-developer-sh.git && \
 cd firefox-developer-sh && \
 chmod +x firefox-developer-pt-br.sh && \
 sudo ./firefox-developer-pt-br.sh
+
 ```
 ![alt text](https://github.com/atorresbr/firefox-developer-sh/blob/main/img/base-fire-fox-sirius.jpg)
 
