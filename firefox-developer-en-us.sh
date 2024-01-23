@@ -332,7 +332,6 @@ echo -ne '\n'
 echo
 echo
 
-
 #Options to Developers
 
 #while true; do
