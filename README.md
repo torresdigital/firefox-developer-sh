@@ -29,10 +29,10 @@ cd ..
  copie e cole o comando abaixo no seu terminal, clique nos dois pequenos quadrados na direita para copiar todo o comando.
 
 ```
-sudo rm -Rf firefox-developer-sh* && \
-git clone https://github.com/atorresbr/firefox-developer-sh.git && \
-cd firefox-developer-sh && \
-chmod +x firefox-developer-pt-br.sh && \
+sudo rm -Rf firefox-developer-sh* &&
+git clone https://github.com/atorresbr/firefox-developer-sh.git &&
+cd firefox-developer-sh &&
+chmod +x firefox-developer-pt-br.sh &&
 sudo ./firefox-developer-pt-br.sh
 cd ..
 
