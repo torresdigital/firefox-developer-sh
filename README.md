@@ -8,7 +8,7 @@ Este script instala e atualiza automaticamente o Firefox Developer Edition em qu
 ####  🌀 Firefox Developer Edition English Version.
 
 ### 1 - Git and  Download.
-just use this command below. Ccopy using the two littles squares on left, paste on your terminal, and press Enter.
+just use this command below. Copy using the two littles squares on left, paste on your terminal, and press Enter.
 
 ```
 sudo rm -Rf firefox-developer-sh* &&
@@ -26,15 +26,13 @@ cd ..
 #### 🌀 Firefox Developer Edition:  Versão em Português Brazuka.
 
 ### 1 - Git and  Download 
- copie e cole o comando abaixo no seu terminal, clique nos dois pequenos quadrados na direita para copiar todo o comnando.
-
- Caso não consiga entender sobre o que fazer, assista o video abaixo.
+ copie e cole o comando abaixo no seu terminal, clique nos dois pequenos quadrados na direita para copiar todo o comando.
 
 ```
-sudo rm -Rf firefox-developer-sh* && \
-git clone https://github.com/atorresbr/firefox-developer-sh.git && \
-cd firefox-developer-sh && \
-chmod +x firefox-developer-pt-br.sh && \
+sudo rm -Rf firefox-developer-sh* &&
+git clone https://github.com/atorresbr/firefox-developer-sh.git &&
+cd firefox-developer-sh &&
+chmod +x firefox-developer-pt-br.sh &&
 sudo ./firefox-developer-pt-br.sh
 cd ..
 
