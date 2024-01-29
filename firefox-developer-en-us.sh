@@ -177,6 +177,15 @@ echo
 echo -e " Succes !"
 echo
 
+
+
+echo
+#fim
+
+# Extracting the files from the encapsulation
+echo " 🐧 Extracting the files from the encapsulation"
+echo
+
 sleep 1
 echo -ne ${b_green}'👾     (10%%)\r '
 sleep 1
@@ -198,12 +207,6 @@ echo -ne '👾 👾 👾 👾 👾 👾 👾 👾 👾 👾     (100%)\r ' ${nc}
 echo -ne '\n'
 sleep 2
 
-echo
-#fim
-
-# Extracting the files from the encapsulation
-echo " 🐧 Extracting the files from the encapsulation"
-echo
 sleep 1
 echo -e " 🔴 ${b_green} sudo tar -jxvf  firefox-dev.bz2 -C /opt/ " ${nc}
 echo
