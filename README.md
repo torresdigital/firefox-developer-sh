@@ -20,9 +20,7 @@ cd ..
 
 ```
 
-![alt text](https://github.com/atorresbr/firefox-developer-sh/blob/main/img/firefox-developer-edition-installer-and-update-to-linux.jpg)
-
-
+![FIREFOX DEVELOPER EDITION - INSTALLER AND UPDATE](https://github.com/atorresbr/firefox-developer-sh/assets/13744483/8016ee4e-ca63-4fd2-8f07-3cfbe4c17351)
 
 
 #### 🌀 Firefox Developer Edition:  Versão em Português Brazuka.
