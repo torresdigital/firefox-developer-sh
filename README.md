@@ -20,7 +20,7 @@ cd ..
 
 ```
 
-![alt text](https://github.com/atorresbr/firefox-developer-sh/blob/main/img/firefox-developer-edition-installer-and-update-to-linux.jpg)
+![FIREFOX DEVELOPER EDITION - INSTALLER AND UPDATE](https://github.com/atorresbr/firefox-developer-sh/assets/13744483/8016ee4e-ca63-4fd2-8f07-3cfbe4c17351)
 
 
 #### 🌀 Firefox Developer Edition:  Versão em Português Brazuka.
@@ -37,7 +37,8 @@ sudo ./firefox-developer-pt-br.sh
 cd ..
 
 ```
-![alt text](https://github.com/atorresbr/firefox-developer-sh/blob/main/img/base-fire-fox-sirius.jpg)
+![FIRE FOX DEVELOPER SIRIUS EDITION](https://github.com/atorresbr/firefox-developer-sh/assets/13744483/c5569e92-5b6a-4fcf-a047-ab78bbe7f46c)
+
 
 <br><br>
 
@@ -50,25 +51,25 @@ Click on the images bellow to see an example how to use the App to Dev from FRON
 <br>
 
 <a href="https://www.facebook.com/torresdigital/videos/1370285286677688">
-  <img src="https://github.com/atorresbr/firefox-developer-sh/blob/main/img/01-firefox-dev.jpg" alt="Click me!" /> <br> Click on the image to watch how to use the App / Clique na imagem para assistir o video de como usar o App <br>
+  <img src="https://github.com/atorresbr/firefox-developer-sh/assets/13744483/2b5c5313-bb2d-4d39-8c6e-533968c717ae" alt="Click me!" /> <br> Click on the image to watch how to use the App / Clique na imagem para assistir o video de como usar o App <br>
 </a>
 
 <br><br>
 
 <a href="https://www.facebook.com/torresdigital/videos/1370285286677688">
-  <img src="https://github.com/atorresbr/firefox-developer-sh/blob/main/img/02-firefox-dev.jpg" alt="Click me!" /> <br> Click on the image to watch how to use the App / Clique na imagem para assistir o video de como usar o App <br>
+  <img src="https://github.com/atorresbr/firefox-developer-sh/assets/13744483/14f8739e-35aa-4d99-9b6b-35b8fd96f323" alt="Click me!" /> <br> Click on the image to watch how to use the App / Clique na imagem para assistir o video de como usar o App <br>
 </a>
 
 <br><br>
 
 <a href="https://www.facebook.com/torresdigital/videos/1370285286677688">
-  <img src="https://github.com/atorresbr/firefox-developer-sh/blob/main/img/03-firefox-dev.jpg" alt="Click me!" /> <br> Click on the image to watch how to use the App / Clique na imagem para assistir o video de como usar o App <br>
+  <img src="https://github.com/atorresbr/firefox-developer-sh/assets/13744483/22fef26a-8c56-4086-90bd-1623b0226530" alt="Click me!" /> <br> Click on the image to watch how to use the App / Clique na imagem para assistir o video de como usar o App <br>
 </a>
 
 
 <br><br>
 
 <a href="https://www.facebook.com/torresdigital/videos/1370285286677688">
-  <img src="https://github.com/atorresbr/firefox-developer-sh/blob/main/img/04-firefox-dev.jpg" alt="Click to see how to use the App!" /> <br> Click on the image to watch how to use the App / Clique na imagem para assistir o video de como usar o App <br>
+  <img src="https://github.com/atorresbr/firefox-developer-sh/assets/13744483/193f4cb1-865a-4fae-89a2-9fa0b78ef1df" alt="Click to see how to use the App!" /> <br> Click on the image to watch how to use the App / Clique na imagem para assistir o video de como usar o App <br>
 </a>
 
