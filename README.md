@@ -1,4 +1,9 @@
+
+![FIREFOX DEVELOPER EDITION - INSTALLER AND UPDATE](https://repository-images.githubusercontent.com/738348143/a0f052b6-9fab-4ec8-8d3c-b0c1ca775a3d)
+
+
 # 🌀 Firefox Developer Edition installer and update.
+
 This script install automatically the Firefox Browser Developer Edition and auto update to Linux Ubuntu and another distro based on Debian. Please, read all instructions on this page, to use properly the script to install and the Brownser to development .
 
 Este script instala e atualiza automaticamente o Firefox Developer Edition em qualquer Distro baseada em Debian. Por favor, siga todas as intruções para uma instalação correta. Na seção "Como usar", há imagens onde você pode clicar e terá acesso a um video mostrando o uso do Navegador, para desenvolvimento web com Wordpress Woocommerce.
@@ -19,9 +24,6 @@ sudo ./firefox-developer-en-us.sh
 cd ..
 
 ```
-
-![FIREFOX DEVELOPER EDITION - INSTALLER AND UPDATE](https://github.com/atorresbr/firefox-developer-sh/assets/13744483/8016ee4e-ca63-4fd2-8f07-3cfbe4c17351)
-
 
 #### 🌀 Firefox Developer Edition:  Versão em Português Brazuka.
 
