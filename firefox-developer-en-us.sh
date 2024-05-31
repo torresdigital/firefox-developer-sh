@@ -3,8 +3,6 @@
 ## By a.torres <https://www.facebook.com/profile.php?id=100007143210386>
 ## see <https://github.com/atorresbr>
 
-
-
 #this functio send the error mesage to user if his not use the sudo command
 if [ "$(whoami)" != "root" ]
 then
