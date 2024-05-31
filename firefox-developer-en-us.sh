@@ -207,7 +207,9 @@ echo -ne '👾 👾 👾 👾 👾 👾 👾 👾 👾 👾     (100%)\r ' ${nc}
 echo -ne '\n'
 sleep 2
 
-sleep 1
+echo
+echo
+
 echo -e " 🔴 ${b_green} sudo tar -jxvf  firefox-dev.bz2 -C /opt/ " ${nc}
 echo
  
