@@ -3,8 +3,6 @@
 ## By a.torres <https://www.facebook.com/profile.php?id=100007143210386>
 ## see <https://github.com/atorresbr>
 
-
-
 #this functio send the error mesage to user if his not use the sudo command
 if [ "$(whoami)" != "root" ]
 then
@@ -207,7 +205,9 @@ echo -ne '👾 👾 👾 👾 👾 👾 👾 👾 👾 👾     (100%)\r ' ${nc}
 echo -ne '\n'
 sleep 2
 
-sleep 1
+echo
+echo
+
 echo -e " 🔴 ${b_green} sudo tar -jxvf  firefox-dev.bz2 -C /opt/ " ${nc}
 echo
  

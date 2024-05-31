@@ -3,8 +3,6 @@
 ## By a.torres <https://www.facebook.com/profile.php?id=100007143210386>
 ## see <https://github.com/atorresbr>
 
-
-
 #função usada para enviar mensagem caso o usuário nao esteja usando o comando sudo
 if [ "$(whoami)" != "root" ]
 then
@@ -171,7 +169,7 @@ echo
 
 
 sleep 2
-wget "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US" -O firefox-dev.bz2 && \
+wget "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=pt-BR" -O firefox-dev.bz2 && \
 
 echo
 echo -e " Êxito !"
@@ -198,6 +196,7 @@ echo -ne '👾 👾 👾 👾 👾 👾 👾 👾 👾 👾     (100%)\r ' ${nc}
 echo -ne '\n'
 sleep 2
 
+echo
 echo
 #fim
 
