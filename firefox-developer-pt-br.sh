@@ -3,8 +3,6 @@
 ## By a.torres <https://www.facebook.com/profile.php?id=100007143210386>
 ## see <https://github.com/atorresbr>
 
-
-
 #função usada para enviar mensagem caso o usuário nao esteja usando o comando sudo
 if [ "$(whoami)" != "root" ]
 then
