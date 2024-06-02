@@ -4,12 +4,31 @@
 
 # 🌀 Firefox Developer Edition installer and update.
 
-This script install automatically the Firefox Browser Developer Edition and auto update to Linux Ubuntu and another distro based on Debian. Please, read all instructions on this page, to use properly the script to install and the Brownser to development.
+🇧🇷 Este script instala e atualiza automaticamente o Firefox Developer Edition em qualquer Distro baseada em Debian. Por favor, siga todas as intruções para uma instalação correta. Na seção "Como usar", há imagens onde você pode clicar e terá acesso a um video mostrando o uso do Navegador, para desenvolvimento web com Wordpress Woocommerce.
 
-Este script instala e atualiza automaticamente o Firefox Developer Edition em qualquer Distro baseada em Debian. Por favor, siga todas as intruções para uma instalação correta. Na seção "Como usar", há imagens onde você pode clicar e terá acesso a um video mostrando o uso do Navegador, para desenvolvimento web com Wordpress Woocommerce.
+🇪🇸 Este script instala y actualiza automáticamente Firefox Developer Edition en cualquier distribución basada en Debian. Siga todas las instrucciones para una instalación correcta. En la sección "Cómo usar" hay imágenes donde puedes hacer clic y tendrás acceso a un video que muestra el uso del Navegador para desarrollo web con Wordpress Woocommerce.
 
-###  How to install / Como instalar
-####  🌀 Firefox Developer Edition English Version.
+🇺🇲 This script install automatically the Firefox Browser Developer Edition and auto update to Linux Ubuntu and another distro based on Debian. Please, read all instructions on this page, to use properly the script to install and the Brownser to development.
+
+###   🇧🇷 Como instalar | 🇺🇲 How to install | 🇪🇸 Como instalar <br>
+
+#### 🇧🇷 🌀 Firefox Developer Edition:  Versão em Português Brazuka.
+
+### 1 - Git e Download 
+ copie e cole o comando abaixo no seu terminal, clique nos dois pequenos quadrados na direita para copiar todo o comando.
+
+```
+sudo rm -Rf firefox-developer-sh* &&
+git clone https://github.com/atorresbr/firefox-developer-sh.git &&
+cd firefox-developer-sh &&
+chmod +x firefox-developer-pt-br.sh &&
+sudo ./firefox-developer-pt-br.sh &&
+cd .. && \
+
+ firefox-developer
+```
+
+####  🇺🇲 🌀 Firefox Developer Edition English Version.
 
 ### 1 - Git and  Download.
 just use this command below. Copy using the two littles squares on left, paste on your terminal, and press Enter.
@@ -19,15 +38,14 @@ sudo rm -Rf firefox-developer-sh* &&
 git clone https://github.com/atorresbr/firefox-developer-sh.git &&
 cd firefox-developer-sh && 
 chmod +x firefox-developer-en-us.sh && 
-sudo ./firefox-developer-en-us.sh &&  cd .. && \
+sudo ./firefox-developer-en-us.sh &&
+ cd .. && \
 
  firefox-developer
-
 ```
+#### 🇪🇸 🌀 Firefox Developer Edition:  Version en Español
 
-#### 🌀 Firefox Developer Edition:  Versão em Português Brazuka.
-
-### 1 - Git and  Download 
+### 1 - Git e Download 
  copie e cole o comando abaixo no seu terminal, clique nos dois pequenos quadrados na direita para copiar todo o comando.
 
 ```
@@ -35,17 +53,19 @@ sudo rm -Rf firefox-developer-sh* &&
 git clone https://github.com/atorresbr/firefox-developer-sh.git &&
 cd firefox-developer-sh &&
 chmod +x firefox-developer-pt-br.sh &&
-sudo ./firefox-developer-pt-br.sh && cd .. && \
+sudo ./firefox-developer-pt-br.sh &&
+cd .. && \
 
  firefox-developer
 
 ```
+
 ![FIRE FOX DEVELOPER SIRIUS EDITION](https://github.com/atorresbr/firefox-developer-sh/assets/13744483/c5569e92-5b6a-4fcf-a047-ab78bbe7f46c)
 
 
 <br><br>
 
-# How to use / Como usar. 
+# 🇧🇷 Como usar - 🇺🇲 How to use - 🇪🇸 Como usar.
 
 Click nas imagens para assistir um exemplo de como você pode usar o snApp para trabalhar com desenvolvimento FROT-END e BACK-END.
 
