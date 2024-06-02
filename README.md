@@ -19,8 +19,7 @@ sudo rm -Rf firefox-developer-sh* &&
 git clone https://github.com/atorresbr/firefox-developer-sh.git &&
 cd firefox-developer-sh && 
 chmod +x firefox-developer-en-us.sh && 
-sudo ./firefox-developer-en-us.sh && 
-cd .. && \
+sudo ./firefox-developer-en-us.sh &&  cd .. && \
 
  firefox-developer
 
@@ -36,8 +35,7 @@ sudo rm -Rf firefox-developer-sh* &&
 git clone https://github.com/atorresbr/firefox-developer-sh.git &&
 cd firefox-developer-sh &&
 chmod +x firefox-developer-pt-br.sh &&
-sudo ./firefox-developer-pt-br.sh &&
-cd .. && \
+sudo ./firefox-developer-pt-br.sh && cd .. && \
 
  firefox-developer
 
