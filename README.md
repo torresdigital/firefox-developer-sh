@@ -45,15 +45,15 @@ sudo ./firefox-developer-en-us.sh &&
 ```
 ### 🇪🇸 🌀 Firefox Developer Edition:  Version en Español
 
-### 1 - Git e Download 
- copie e cole o comando abaixo no seu terminal, clique nos dois pequenos quadrados na direita para copiar todo o comando.
+### 1 - Git y Download 
+Copie y pegue el siguiente comando en su terminal, haga clic en los dos pequeños cuadrados a la derecha para copiar el comando completo.
 
 ```
 sudo rm -Rf firefox-developer-sh* &&
 git clone https://github.com/atorresbr/firefox-developer-sh.git &&
 cd firefox-developer-sh &&
-chmod +x firefox-developer-pt-br.sh &&
-sudo ./firefox-developer-pt-br.sh &&
+chmod +x firefox-developer-es-es.sh &&
+sudo ./firefox-developer-es-es.sh &&
 cd .. && \
 
  firefox-developer
