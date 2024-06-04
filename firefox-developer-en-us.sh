@@ -285,8 +285,7 @@ echo
 echo -ne ${b_green}
 
 sleep 2
-echo -e '[Desktop Entry]
-Version=1.0\n Name=Firefox Developer Edition\n StartupWMClass="firefox-aurora", "Firefox Developer Edition"\n GenericName=Web Browser\n Exec=/opt/firefox/firefox\n Terminal=false\n Icon=/opt/firefox/browser/icons/mozicon128.png\n Type=Application\n Categories=Network;WebBrowser;Favorites;\n StartupNotify=true\n Keywords=web;browser;internet;\n Actions=new-window;new-private-window;\n StartupWMClass=Firefox Developer Edition\n MimeType=text/html;text/xml;application/xhtml_xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;\n X-Ayatana-Desktop-Shortcuts=NewWindow;NewIncognito' | sudo tee /usr/share/applications/firefox-developer.desktop && \
+echo -e '[Desktop Entry]\n Version=1.0\n Name=Firefox Developer Edition\n StartupWMClass="firefox-aurora", "Firefox Developer Edition"\n GenericName=Web Browser\n Exec=/opt/firefox/firefox\n Terminal=false\n Icon=/opt/firefox/browser/icons/mozicon128.png\n Type=Application\n Categories=Network;WebBrowser;Favorites;\n StartupNotify=true\n Keywords=web;browser;internet;\n Actions=new-window;new-private-window;\n StartupWMClass=Firefox Developer Edition\n MimeType=text/html;text/xml;application/xhtml_xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;\n X-Ayatana-Desktop-Shortcuts=NewWindow;NewIncognito' | sudo tee /usr/share/applications/firefox-developer.desktop && \
 
 
 echo
