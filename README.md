@@ -10,7 +10,7 @@
 
 🇺🇲 This script install automatically the Firefox Browser Developer Edition and auto update to Linux Ubuntu and another distro based on Debian. Please, read all instructions on this page, to use properly the script to install and the Brownser to development.
 
-##   🇧🇷 Como instalar | 🇺🇲 How to install | 🇪🇸 Como instalar <br>
+##   🇧🇷 Como instalar - 🇺🇲 How to install - 🇪🇸 Como instalar <br>
 
 ### 🇧🇷 🌀 Firefox Developer Edition:  Versão em Português Brazuka.
 
