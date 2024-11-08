@@ -65,7 +65,7 @@ cd .. && \
 
 <br><br>
 
-# 🇧🇷 Como usar para desenvolvimento - 🇺🇲 How to use to Dev - 🇪🇸 Cómo utilizar para Crear.
+# - 🇧🇷 Como usar para desenvolvimento. <br> - 🇺🇲 How to use to Dev. <br>  - 🇪🇸 Cómo utilizar para Crear.
 
 Click nas imagens para assistir um exemplo de como você pode usar o snApp para trabalhar com desenvolvimento FROT-END e BACK-END.
 
