@@ -98,7 +98,7 @@ Click on the images bellow to see an example how to use the App to Dev from FRON
 
 <br><br>
 
-by Torres Digital -Sites → Lojas Virtuais e e-Commerce 
+by <a href="https://torresdigital.com.br/">Torres Digital -Sites → Lojas Virtuais e e-Commerce </a>
 
 <br>
 
