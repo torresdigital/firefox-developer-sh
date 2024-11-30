@@ -25,7 +25,7 @@ nc='\033[0m'          # No Color
 
 
 #================================================== * 
-# =        Executando os Comandos de Shell           *
+# =         executing the shell commmands             *
 #================================================== *
 
 # Excluindo arquivos do firefox DEv da pasta opt
