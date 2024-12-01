@@ -4,7 +4,7 @@
 
 # 🌀 Firefox Developer Edition installer and update.
 
-🇧🇷 Este script instala e atualiza automaticamente o Firefox Developer Edition em qualquer Distro baseada em Debian. Por favor, siga todas as intruções para uma instalação correta. Na seção "Como usar", há imagens onde você pode clicar e terá acesso a um video mostrando o uso do Navegador, para desenvolvimento web com Wordpress Woocommerce.
+🇧🇷 Este script instala e atualiza automaticamente o Firefox Developer Edition em qualquer Distro baseada em Debian. Por favor, siga todas as intruções para uma instalação correta. Na seção "Como usar", há imagens onde você pode clicar e terá acesso a um video mostrando o uso do Navegador, para desenvolvimento web com Wordpress e Woocommerce.
 
 🇪🇸 Este script instala y actualiza automáticamente Firefox Developer Edition en cualquier distribución basada en Debian. Siga todas las instrucciones para una instalación correcta. En la sección "Cómo usar" hay imágenes donde puedes hacer clic y tendrás acceso a un video que muestra el uso del Navegador para desarrollo web con Wordpress Woocommerce.
 
