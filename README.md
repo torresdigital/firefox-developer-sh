@@ -18,7 +18,7 @@
  copie e cole o comando abaixo no seu terminal, clique nos dois pequenos quadrados na direita para copiar todo o comando.
 
 ```
-sudo pkill -9 firefox && sudo pkill -9 firefox-developer && \
+sudo pkill -9 firefox-developer && sudo pkill -9 firefox
 sudo rm -Rf firefox-developer-sh* &&
 git clone https://github.com/atorresbr/firefox-developer-sh.git &&
 cd firefox-developer-sh &&
@@ -35,7 +35,7 @@ cd .. && \
 just use this command below. Copy using the two littles squares on left, paste on your terminal, and press Enter.
 
 ```
-sudo pkill -9 firefox && sudo pkill -9 firefox-developer && \
+sudo pkill -9 firefox-developer && sudo pkill -9 firefox
 sudo rm -Rf firefox-developer-sh* &&
 git clone https://github.com/atorresbr/firefox-developer-sh.git &&
 cd firefox-developer-sh && 
@@ -51,8 +51,8 @@ sudo ./firefox-developer-en-us.sh &&
 Copie y pegue el siguiente comando en su terminal, haga clic en los dos pequeños cuadrados a la derecha para copiar el comando completo.
 
 ```
-sudo pkill -9 firefox && sudo pkill -9 firefox-developer && \
-sudo rm -Rf firefox-developer-sh* &&
+sudo pkill -9 firefox-developer && sudo pkill -9 firefox
+udo rm -Rf firefox-developer-sh* &&
 git clone https://github.com/atorresbr/firefox-developer-sh.git &&
 cd firefox-developer-sh &&
 chmod +x firefox-developer-es-es.sh &&
