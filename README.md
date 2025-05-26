@@ -23,9 +23,7 @@ git clone https://github.com/atorresbr/firefox-developer-sh.git &&
 cd firefox-developer-sh &&
 chmod +x firefox-developer-pt-br.sh &&
 sudo ./firefox-developer-pt-br.sh &&
-cd .. && \
-
- firefox-developer
+cd .. && firefox-developer
 ```
 
 ###  🇺🇲 🌀 Firefox Developer Edition English Version.
@@ -40,9 +38,7 @@ git clone https://github.com/atorresbr/firefox-developer-sh.git &&
 cd firefox-developer-sh && 
 chmod +x firefox-developer-en-us.sh && 
 sudo ./firefox-developer-en-us.sh &&
- cd .. && \
-
- firefox-developer
+ cd .. && firefox-developer
 ```
 ### 🇪🇸 🌀 Firefox Developer Edition:  Version en Español
 
