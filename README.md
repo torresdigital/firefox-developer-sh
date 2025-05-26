@@ -17,13 +17,15 @@
 ### 1 - Git e Download 
  copie e cole o comando abaixo no seu terminal, clique nos dois pequenos quadrados na direita para copiar todo o comando.
 
-```sudo pkill -9 firefox-developer && sudo pkill -9 firefox &&
+```
 sudo rm -Rf firefox-developer-sh* &&
 git clone https://github.com/atorresbr/firefox-developer-sh.git &&
 cd firefox-developer-sh &&
 chmod +x firefox-developer-pt-br.sh &&
 sudo ./firefox-developer-pt-br.sh &&
-cd .. && firefox-developer
+cd .. && \
+
+ firefox-developer
 ```
 
 ###  🇺🇲 🌀 Firefox Developer Edition English Version.
@@ -32,13 +34,14 @@ cd .. && firefox-developer
 just use this command below. Copy using the two littles squares on left, paste on your terminal, and press Enter.
 
 ```
-sudo pkill -9 firefox-developer && sudo pkill -9 firefox &&
 sudo rm -Rf firefox-developer-sh* &&
 git clone https://github.com/atorresbr/firefox-developer-sh.git &&
 cd firefox-developer-sh && 
 chmod +x firefox-developer-en-us.sh && 
 sudo ./firefox-developer-en-us.sh &&
- cd .. && firefox-developer
+ cd .. && \
+
+ firefox-developer
 ```
 ### 🇪🇸 🌀 Firefox Developer Edition:  Version en Español
 
@@ -46,8 +49,7 @@ sudo ./firefox-developer-en-us.sh &&
 Copie y pegue el siguiente comando en su terminal, haga clic en los dos pequeños cuadrados a la derecha para copiar el comando completo.
 
 ```
-sudo pkill -9 firefox-developer && sudo pkill -9 firefox &&
-udo rm -Rf firefox-developer-sh* &&
+sudo rm -Rf firefox-developer-sh* &&
 git clone https://github.com/atorresbr/firefox-developer-sh.git &&
 cd firefox-developer-sh &&
 chmod +x firefox-developer-es-es.sh &&
