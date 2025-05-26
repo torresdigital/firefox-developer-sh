@@ -207,12 +207,17 @@ sleep 2
 
 echo
 echo
+#end
 
-echo -e " 🔴 ${b_green} sudo tar -xvzf  firefox-dev.tar.xz -C /opt/ " ${nc}
+#extraction the zip archives
+echo " 🐧 extractiong the zip achives "
+exho
+sleep 1
+echo -e " 🔴 ${b_green} sudo tar -xfv  firefox-dev.tar.xz -C /opt/ " ${nc}
 echo
  
 sleep 2
-sudo tar -xvzf  firefox-dev.tar.xz -C /opt/ && \
+sudo tar -xfv  firefox-dev.tar.xz -C /opt/ && \
 sleep 1
 
 echo
