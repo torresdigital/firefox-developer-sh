@@ -17,8 +17,7 @@
 ### 1 - Git e Download 
  copie e cole o comando abaixo no seu terminal, clique nos dois pequenos quadrados na direita para copiar todo o comando.
 
-```
-sudo pkill -9 firefox-developer && sudo pkill -9 firefox &&
+```sudo pkill -9 firefox-developer && sudo pkill -9 firefox &&
 sudo rm -Rf firefox-developer-sh* &&
 git clone https://github.com/atorresbr/firefox-developer-sh.git &&
 cd firefox-developer-sh &&
