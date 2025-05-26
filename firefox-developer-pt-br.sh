@@ -204,11 +204,11 @@ echo
 echo " 🐧 Extraindo os arquivos do encapsulamento"
 echo
 sleep 1
-echo -e " 🔴 ${b_green} sudo tar -xfv  firefox-dev.tar.xz -C /opt/ " ${nc}
+echo -e " 🔴 ${b_green} sudo tar -xvf  firefox-dev.tar.xz -C /opt/ " ${nc}
 echo
  
 sleep 2
-sudo tar -xfv  firefox-dev.tar.xz -C /opt/ && \
+sudo tar -xvf  firefox-dev.tar.xz -C /opt/ && \
 sleep 1
 
 echo
