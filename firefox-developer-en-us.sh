@@ -208,11 +208,11 @@ sleep 2
 echo
 echo
 
-echo -e " 🔴 ${b_green} sudo tar -jxvf  firefox-dev.tar.xz -C /opt/ " ${nc}
+echo -e " 🔴 ${b_green} sudo tar -xf  firefox-dev.tar.xz -C /opt/ " ${nc}
 echo
  
 sleep 2
-sudo tar -jxvf  firefox-dev.tar.xz -C /opt/ && \
+sudo tar -xf  firefox-dev.tar.xz -C /opt/ && \
 sleep 1
 
 echo
