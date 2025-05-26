@@ -211,7 +211,7 @@ echo
 
 #extraction the zip archives
 echo " 🐧 extractiong the zip achives "
-exho
+echo
 sleep 1
 echo -e " 🔴 ${b_green} sudo tar -xvf  firefox-dev.tar.xz -C /opt/ " ${nc}
 echo
