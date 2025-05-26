@@ -201,7 +201,7 @@ echo
 #fim
 
 # Extraindo os arquivos
-echo " 🐧 Extraindo os arquivos do encapsulamento"
+echo " 🐧 Extraindo os arquivos do encapsulamento "
 echo
 sleep 1
 echo -e " 🔴 ${b_green} sudo tar -xvf  firefox-dev.tar.xz -C /opt/ " ${nc}
