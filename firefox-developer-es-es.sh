@@ -1,5 +1,6 @@
 #!/bin/bash
 ## Bash Script to install automatically Fire Fox Developer EDITION
+## By a.torres <https://www.facebook.com/anderson.torres.677492>
 ## By a.torres <https://www.facebook.com/profile.php?id=100007143210386>
 ## see <https://github.com/atorresbr>
 
@@ -25,10 +26,10 @@ nc='\033[0m'          # No Color
 
 
 #================================================== * 
-# =        Executando os Comandos de Shell           *
+# =       Ejecución de comandos de shell           *
 #================================================== *
 
-# Excluindo arquivos do firefox DEv da pasta opt
+# Este comando elimina los archivos DEv de Firefox de la carpeta opt
 echo  -e " 🐧 Eliminar archivos FIREFOX DEv heredados en el directorio opt "
 echo
 sleep 1
@@ -54,7 +55,7 @@ sudo rm -Rf /opt/firefox-developer* && \
 echo
 #fim
 
-# Exclui os arquivos do firefov DEv da pasta bin
+# Este comando elimina los archivos DEv de Firefox de la carpeta bin
 echo " 🐧 Eliminando archivos antiguos de FIREFOX DEv en el directorio bin "
 echo
 sleep 1
@@ -80,7 +81,7 @@ sudo rm -Rf /usr/bin/firefox-developer && \
 echo
 #fim 
 
-# Exclui o icone do Firefox DEv da seção de snaps (( snApps ))
+# Este comando elimina el ícono de Firefox DEv de la sección snaps. (( snApps ))
 echo " 🐧 Eliminar el icono de acceso directo de Firefox-dev en la sección Snaps "
 echo
 sleep 1
@@ -106,7 +107,7 @@ sudo rm -Rf /usr/share/applications/firefox-developer.desktop && \
 echo
 #fim
 
-# Exclui o diretório antigo com arquivos de uma instalação anterior
+# Este comando elimina el directorio antiguo con archivos de una instalación anterior
 echo " 🐧 eliminar el directorio antiguo con archivos de una instalación anterior "
 echo
 sleep 1
@@ -133,7 +134,7 @@ echo
 #fim
 
 
-# criando uma outra pasta com o atual Firefox DEv
+# creando un directorio para recibir la descarga de Firefox DEv 
 echo " 🐧 creando un directorio para recibir la descarga de Firefox DEv "
 echo
 sleep 1
@@ -160,7 +161,7 @@ mkdir installer-firefox-developer && cd installer-firefox-developer && \
 echo
 #fim
 
-# fazendo o Donload
+# finiciando la descarga de Firefox DEv
 echo " 🐧 iniciando la descarga de Firefox DEv"
 echo
 sleep 1
@@ -200,7 +201,7 @@ echo
 echo
 #fim
 
-# Extraindo os arquivos
+# Extrayendo los archivos de la encapsulación 
 echo " 🐧 Extrayendo los archivos de la encapsulación "
 echo
 sleep 1
@@ -218,7 +219,7 @@ echo
 echo
 #fim
 
-# renomeando a pasta dos arquivos de firefox para firefox-dev
+# Este comando cambia el nombre de la carpeta de archivos de Firefox a firefox-dev
 echo " 🐧 cambiar el nombre del directorio de archivos de Firefox a Firefox-Developer "
 echo
 sleep 1
@@ -248,7 +249,7 @@ sudo mv /opt/firefox*/ /opt/firefox-developer && \
 echo
 #fim
 
-# Criando atalho do firefox-dev
+# Este comando crea el acceso directo firefox-dev en la sección de programas snApps del usuario.
 echo " 🐧 Creando un acceso directo a firefox-dev 🌀 "
 echo
 sleep 1
@@ -274,7 +275,7 @@ sudo ln -sf /opt/firefox-developer/firefox /usr/bin/firefox-developer && \
 echo
 #fim
 
-# Criando novo icone de atalho do firefox-dev na seção de Snaps (( snApps )) 
+# Criando Este comando inserta la información del nuevo icono de acceso directo de firefox-dev en la sección Snaps ((snApps))
 echo " 🐧 Creando un nuevo icono de acceso directo de Firefox-dev en la sección Snaps "
 echo
 
@@ -289,7 +290,7 @@ echo -e " ${nc}Éxito !"
 echo
 #fim
 
-# Exclui o diretório antigo com arquivos de uma instalação anterior
+# Este comando elimina el directorio antiguo con archivos de una instalación anterior
 echo " 🐧 eliminando el directorio de instalación  "
 echo
 sleep 1
@@ -319,7 +320,7 @@ sudo rm -Rf firefox-developer-sh* && \
 echo
 #fim
 
-# printando a mensagem de agradecimento no terminal
+# imprimiendo el mensaje de agradecimiento en la terminal
 sleep 2
 
 echo
