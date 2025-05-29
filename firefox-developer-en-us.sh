@@ -1,6 +1,6 @@
 #!/bin/bash
 ## Bash Script to install automatically Fire Fox Developer EDITION
-## By a.torres <https://www.facebook.com/profile.php?id=10000743210386>
+## By a.torres <https://www.facebook.com/profile.php?id=100007143210386>
 ## see <https://github.com/atorresbr>
 
 #this functio send the error mesage to user if his not use the sudo command
